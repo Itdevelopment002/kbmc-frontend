@@ -95,29 +95,29 @@ const Header = () => {
                                         <ul>
                                             <li><Link to="/history">History</Link></li>
                                             <li><Link to="/ward">Wards</Link></li>
-                                            <li><Link to="/electedwing">Elected Wing</Link></li>
-                                            <li><Link to="/organisationstructure">Organization Structure</Link></li>
-                                            <li><Link to="functions.php">Functions</Link></li>
-                                            <li><Link to="departments.php">Departments</Link></li>
-                                            <li><Link to="elected-pre-officer.php">Previous Chief Officers</Link></li>
-                                            <li><Link to="elected-pre-representative.php">Previous Presidents</Link></li>
-                                            <li><Link to="awards.php">Awards</Link></li>
+                                            <li><Link to="/elected-member">Elected Wing</Link></li>
+                                            <li><Link to="/org-structure">Organization Structure</Link></li>
+                                            <li><Link to="/functions">Functions</Link></li>
+                                            <li><Link to="/departments">Departments</Link></li>
+                                            <li><Link to="/elected-pre-officer">Previous Chief Officers</Link></li>
+                                            <li><Link to="/elected-pre-representative">Previous Presidents</Link></li>
+                                            <li><Link to="/awards">Awards</Link></li>
                                         </ul>
                                         <div className="dropdown-btn"><span className="fas fa-angle-down"></span></div></li>
                                     <li className="dropdown"><Link to="#.">City Profile</Link>
                                         <ul>
-                                            <li><Link to="assets/documents/KBMC CIRCULATION A3 COLOR-Brown-24 (1).pdf" target="_blank">Areas </Link></li>
-                                            <li><Link to="property-holder.php">Property Holder</Link></li>
-                                            <li><Link to="properties_milkat.php">Muncipal Properties</Link></li>
-                                            <li><Link to="schools.php">Schools</Link></li>
-                                            <li><Link to="gardens.php">Gardens</Link></li>
-                                            <li><Link to="electric.php">Electric</Link></li>
-                                            <li><Link to="roads.php">Roads</Link></li>
-                                            <li><Link to="tree-census.php">Tree Census</Link></li>
-                                            <li><Link to="health.php">Health</Link></li>
-                                            <li><Link to="ponds-talao.php">Ponds / Talao</Link></li>
-                                            <li><Link to="fire-station.php">Fire Station</Link></li>
-                                            <li><Link to="private_hospital.php">Private Hospital</Link></li>
+                                            <li><Link to="/assets/documents/KBMC CIRCULATION A3 COLOR-Brown-24 (1).pdf" target="_blank">Areas </Link></li>
+                                            <li><Link to="/property-holder">Property Holder</Link></li>
+                                            <li><Link to="/properties_milkat">Muncipal Properties</Link></li>
+                                            <li><Link to="/schools">Schools</Link></li>
+                                            <li><Link to="/gardens">Gardens</Link></li>
+                                            <li><Link to="/electric">Electric</Link></li>
+                                            <li><Link to="/roads">Roads</Link></li>
+                                            <li><Link to="/tree-census">Tree Census</Link></li>
+                                            <li><Link to="/health">Health</Link></li>
+                                            <li><Link to="/ponds-talao">Ponds / Talao</Link></li>
+                                            <li><Link to="/fire-station">Fire Station</Link></li>
+                                            <li><Link to="/private-hospital">Private Hospital</Link></li>
                                         </ul>
                                         <div className="dropdown-btn"><span className="fas fa-angle-down"></span></div></li>
                                     <li className="dropdown"><Link to="#.">Online Services</Link>
