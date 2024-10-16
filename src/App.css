@@ -2601,7 +2601,7 @@ div#mCSB_1_container{
 .service-section .owl-carousel .owl-nav .owl-prev span{
   position: relative;
   display: inline-block;
-  transform: rotate(180deg);
+  transform: rotate(90deg);
   top: -3px;
 }
 

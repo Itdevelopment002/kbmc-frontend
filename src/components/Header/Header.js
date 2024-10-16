@@ -177,7 +177,7 @@ const Header = () => {
                                         <li className="current"><Link to="index.php">Home</Link> </li>
                                         <li className="dropdown"><Link to="#.">About KBMC</Link>
                                             <ul>
-                                                <li><Link to="history.php">History</Link></li>
+                                                <li><Link to="/history">History</Link></li>
                                                 <li><Link to="ward.php">Wards</Link></li>
                                                 <li><Link to="elected-member.php">Elected Wing</Link></li>
                                                 <li><Link to="org-structure.php">Organization Structure</Link></li>

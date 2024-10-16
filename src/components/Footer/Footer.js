@@ -3,7 +3,7 @@ import './Footer.css';  // Assuming custom styles for padding/margin adjustments
 
 const Footer = () => {
     return (
-        <footer className="main-footer fixed-bottom">
+        <footer className="main-footer fixed-bottom" style={{zIndex:1}}>
             <div className="footer-bottom centred">
                 <div className="auto-container">
                     <div className="bottom-inner">

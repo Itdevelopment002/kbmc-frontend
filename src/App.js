@@ -1,9 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './components/Home/Home';
 import About from './components/About/About';
 import Header from './components/Header/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import './App.css'
 import './responsive.css'
 import './custom.css'
@@ -30,7 +31,11 @@ import PreviousPresidents from './components/PreviousPresidents/PreviousPresiden
 import PreviousChiefOfficers from './components/PreviousChiefOfficers/PreviousChiefOfficers';
 import Departments from './components/Departments/Departments';
 import Functions from './components/Functions/Functions';
-
+import MainHome from './components/MainHome/MainHome';
+import History from './components/History/History';
+import Wards from './components/Wards/Wards';
+import ElectedWing from './components/ElectedWing/ElectedWing';
+import OrganisationStructure from './components/OrganisationStructure/OrganisationStructure';
 
 
 function App() {
@@ -38,8 +43,12 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<MainHome />} />
         <Route path="/about" element={<About />} />
+        <Route path="/history" element={<History />} />
+        <Route path="/ward" element={<Wards />} />
+        <Route path="/electedwing" element={<ElectedWing />} />
+        <Route path="/organisationstructure" element={<OrganisationStructure />} />
         <Route path="/functions" element={<Functions />} />
         <Route path="/departments" element={<Departments />} />
         <Route path="/elected-pre-officer" element={<PreviousChiefOfficers />} />
