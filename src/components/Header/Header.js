@@ -93,10 +93,10 @@ const Header = () => {
                                     <li className="current"><Link to="index.php">Home</Link> </li>
                                     <li className="dropdown"><Link to="#.">About KBMC</Link>
                                         <ul>
-                                            <li><Link to="history.php">History</Link></li>
-                                            <li><Link to="ward.php">Wards</Link></li>
-                                            <li><Link to="elected-member.php">Elected Wing</Link></li>
-                                            <li><Link to="org-structure.php">Organization Structure</Link></li>
+                                            <li><Link to="/history">History</Link></li>
+                                            <li><Link to="/ward">Wards</Link></li>
+                                            <li><Link to="/electedwing">Elected Wing</Link></li>
+                                            <li><Link to="/organisationstructure">Organization Structure</Link></li>
                                             <li><Link to="functions.php">Functions</Link></li>
                                             <li><Link to="departments.php">Departments</Link></li>
                                             <li><Link to="elected-pre-officer.php">Previous Chief Officers</Link></li>
@@ -177,7 +177,7 @@ const Header = () => {
                                         <li className="current"><Link to="index.php">Home</Link> </li>
                                         <li className="dropdown"><Link to="#.">About KBMC</Link>
                                             <ul>
-                                                <li><Link to="history.php">History</Link></li>
+                                                <li><Link to="/history">History</Link></li>
                                                 <li><Link to="ward.php">Wards</Link></li>
                                                 <li><Link to="elected-member.php">Elected Wing</Link></li>
                                                 <li><Link to="org-structure.php">Organization Structure</Link></li>
