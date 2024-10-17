@@ -34,7 +34,7 @@ const ElectedWing = () => {
                             <div class="inner-box">
                                 <figure class="image-box"><img src={img1} alt="Correspondent Img"/></figure>
                                 <div class="share-box">
-                                    <span class="share-text"><i class="flaticon-sharing"></i>Share</span>
+                                    <span class="share-text"><i class="fa-solid fa-share-nodes"></i>Share</span>
                                     <ul class="share-links">
                                         <li><a href="#."><span class="fab fa-facebook-square"></span></a></li>
                                         <li><a href="#."><span class="fab fa-twitter-square"></span></a></li>
@@ -53,7 +53,7 @@ const ElectedWing = () => {
                             <div class="inner-box">
                                 <figure class="image-box"><img src={img1} alt="Correspondent Img"/></figure>
                                 <div class="share-box">
-                                    <span class="share-text"><i class="flaticon-sharing"></i>Share</span>
+                                    <span class="share-text"><i class="fa-solid fa-share-nodes"></i>Share</span>
                                     <ul class="share-links">
                                         <li><a href="#."><span class="fab fa-facebook-square"></span></a></li>
                                         <li><a href="#."><span class="fab fa-twitter-square"></span></a></li>
@@ -72,7 +72,7 @@ const ElectedWing = () => {
                             <div class="inner-box">
                                 <figure class="image-box"><img src={img1} alt="Correspondent Img"/></figure>
                                 <div class="share-box">
-                                    <span class="share-text"><i class="flaticon-sharing"></i>Share</span>
+                                    <span class="share-text"><i class="fa-solid fa-share-nodes"></i>Share</span>
                                     <ul class="share-links">
                                         <li><a href="#."><span class="fab fa-facebook-square"></span></a></li>
                                         <li><a href="#."><span class="fab fa-twitter-square"></span></a></li>
@@ -91,7 +91,7 @@ const ElectedWing = () => {
                             <div class="inner-box">
                                 <figure class="image-box"><img src={img1} alt="Correspondent Img"/></figure>
                                 <div class="share-box">
-                                    <span class="share-text"><i class="flaticon-sharing"></i>Share</span>
+                                    <span class="share-text"><i class="fa-solid fa-share-nodes"></i>Share</span>
                                     <ul class="share-links">
                                         <li><a href="#."><span class="fab fa-facebook-square"></span></a></li>
                                         <li><a href="#."><span class="fab fa-twitter-square"></span></a></li>
@@ -110,7 +110,7 @@ const ElectedWing = () => {
                             <div class="inner-box">
                                 <figure class="image-box"><img src={img1} alt="Correspondent Img"/></figure>
                                 <div class="share-box">
-                                    <span class="share-text"><i class="flaticon-sharing"></i>Share</span>
+                                    <span class="share-text"><i class="fa-solid fa-share-nodes"></i>Share</span>
                                     <ul class="share-links">
                                         <li><a href="#."><span class="fab fa-facebook-square"></span></a></li>
                                         <li><a href="#."><span class="fab fa-twitter-square"></span></a></li>
@@ -129,7 +129,7 @@ const ElectedWing = () => {
                             <div class="inner-box">
                                 <figure class="image-box"><img src={img1} alt="Correspondent Img"/></figure>
                                 <div class="share-box">
-                                    <span class="share-text"><i class="flaticon-sharing"></i>Share</span>
+                                    <span class="share-text"><i class="fa-solid fa-share-nodes"></i>Share</span>
                                     <ul class="share-links">
                                         <li><a href="#."><span class="fab fa-facebook-square"></span></a></li>
                                         <li><a href="#."><span class="fab fa-twitter-square"></span></a></li>
@@ -148,7 +148,7 @@ const ElectedWing = () => {
                             <div class="inner-box">
                                 <figure class="image-box"><img src={img1} alt="Correspondent Img"/></figure>
                                 <div class="share-box">
-                                    <span class="share-text"><i class="flaticon-sharing"></i>Share</span>
+                                    <span class="share-text"><i class="fa-solid fa-share-nodes"></i>Share</span>
                                     <ul class="share-links">
                                         <li><a href="#."><span class="fab fa-facebook-square"></span></a></li>
                                         <li><a href="#."><span class="fab fa-twitter-square"></span></a></li>
@@ -167,7 +167,7 @@ const ElectedWing = () => {
                             <div class="inner-box">
                                 <figure class="image-box"><img src={img1} alt="Correspondent Img" /></figure>
                                 <div class="share-box">
-                                    <span class="share-text"><i class="flaticon-sharing"></i>Share</span>
+                                    <span class="share-text"><i class="fa-solid fa-share-nodes"></i>Share</span>
                                     <ul class="share-links">
                                         <li><a href="#."><span class="fab fa-facebook-square"></span></a></li>
                                         <li><a href="#."><span class="fab fa-twitter-square"></span></a></li>

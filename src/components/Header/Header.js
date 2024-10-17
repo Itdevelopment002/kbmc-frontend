@@ -79,7 +79,7 @@ const Header = () => {
             <div className="header-lower">
                 <div className="outer-box">
                     <div className="logo-box">
-                        <figure className="logo"><Link to="index.php"><img src={img3} alt="logo" /></Link></figure>
+                        <figure className="logo"><Link to="/"><img src={img3} alt="logo" /></Link></figure>
                     </div>
                     <div className="menu-area">
                         <div className="mobile-nav-toggler">
@@ -90,7 +90,7 @@ const Header = () => {
                         <nav className="main-menu navbar-expand-md navbar-light">
                             <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul className="navigation clearfix">
-                                    <li className="current"><Link to="index.php">Home</Link> </li>
+                                    <li className="current"><Link to="/">Home</Link> </li>
                                     <li className="dropdown"><Link to="#.">About KBMC</Link>
                                         <ul>
                                             <li><Link to="/history">History</Link></li>

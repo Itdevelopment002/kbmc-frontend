@@ -29,7 +29,7 @@ const PublicDisclosure = () => {
                     <div class="departments-block-two">
                         <div class="inner-box">
                             <div class="content-box">
-                                <h5><a href="general-admin-dept.php">General Admin Department</a></h5>
+                                <h5><a href="/general-admin-dept">General Admin Department</a></h5>
                             </div>
                         </div>
                     </div>

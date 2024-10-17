@@ -1,7 +1,7 @@
 import React from "react";
 import innerBanner from "../../assets/images/banner/inner-banner.jpg";
 
-const NULMDepartment = () => {
+const DisabilityDepartment = () => {
   return (
     <>
       <section class="page-title ">
@@ -15,13 +15,13 @@ const NULMDepartment = () => {
         </div>
         <div class="auto-container">
           <div class="content-box">
-            <h1>National Urban Livelihood Mission - NULM Department</h1>
+            <h1>Disability Welfare Department</h1>
             <ul class="bread-crumb clearfix">
               <li>
-                <a href="departments.php">Departments</a>
+                <a href="/departments">Departments</a>
               </li>
               <li>
-                <span>NULM Department</span>
+                <span>Disability Welfare Department</span>
               </li>
             </ul>
           </div>
@@ -35,7 +35,7 @@ const NULMDepartment = () => {
               <div class="department-details-content">
                 <div class="content-one dept_leyer_1">
                   <div class="title-box">
-                    <h3>NULM Department</h3>
+                    <h3>Disability Welfare Department</h3>
                     <hr />
                   </div>
                   <ul>
@@ -179,4 +179,4 @@ const NULMDepartment = () => {
   );
 };
 
-export default NULMDepartment;
+export default DisabilityDepartment;

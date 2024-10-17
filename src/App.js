@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import 'font-awesome/css/font-awesome.min.css';
 import About from './components/About/About';
 import Header from './components/Header/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -47,7 +48,7 @@ import RightToService from './components/RightToService/RightToService';
 import TownPlanning from './components/TownPlanning/TownPlanning';
 import Downloads from './components/Downloads/Downloads';
 import OfficialPublication from './components/OfficialPublication/OfficialPublication';
-import TaxDeoartment from './components/TaxDepartment/TaxDeoartment';
+import TaxDepartment from './components/TaxDepartment/TaxDepartment';
 import AccountDepartment from './components/AccountDepartment/AccountDepartment';
 import ElectricalDepartment from './components/ElectricalDepartment/ElectricalDepartment';
 import PublicWorkDepartment from './components/PublicWorkDepartment/PublicWorkDepartment';
@@ -57,6 +58,14 @@ import NULMDepartment from './components/NULMDepartment/NULMDepartment';
 import HospitalDepartment from './components/HospitalDepartment/HospitalDeparment';
 import FireDepartment from './components/FireDepartment/FireDepartment';
 import BirthDeathDepartment from './components/Birth&DeathDepartment/BirthDeathDepartment';
+import AuditDepartment from './components/AuditDepartment/AuditDepartment';
+import IncomeDepartment from './components/IncomeDepartment/IncomeDepartment';
+import EGovernanceDepartment from './components/EGovernanceDepartment/EGovernanceDepartment';
+import WcdDepartment from './components/WcdDepartment/WcdDepartment';
+import AdDepartment from './components/AdDepartment/AdDepartment';
+import VehicleDepartment from './components/VehicleDepartment/VehicleDepartment';
+import LegalDepartment from './components/LegalDDepartment/LegalDepartment';
+import DisabilityDepartment from './components/DisabilityDepartment/DisabilityDepartment';
 
 function App() {
   return (
@@ -68,7 +77,7 @@ function App() {
         <Route path="/history" element={<History />} />
         <Route path="/ward" element={<Wards />} />
         <Route path="/elected-member" element={<ElectedWing />} />
-        <Route path="/org-structure " element={<OrganisationStructure />} />
+        <Route path="/org-structure" element={<OrganisationStructure />} />
         <Route path="/functions" element={<Functions />} />
         <Route path="/departments" element={<Departments />} />
         <Route path="/elected-pre-officer" element={<PreviousChiefOfficers />} />
@@ -97,7 +106,15 @@ function App() {
         <Route path="/town-planning" element={<TownPlanning />} />
         <Route path="/downloads" element={<Downloads />} />
         <Route path="/official-publication" element={<OfficialPublication />} />
-        <Route path="/tax-department" element={<TaxDeoartment />} />
+        <Route path="/audit-dept" element={<AuditDepartment />} />
+        <Route path="/income-dept" element={<IncomeDepartment />} />
+        <Route path="/egovernance-dept" element={<EGovernanceDepartment />} />
+        <Route path="/wcd" element={<WcdDepartment />} />
+        <Route path="/advertisement-dept" element={<AdDepartment />} />
+        <Route path="/vehicle-dept" element={<VehicleDepartment />} />
+        <Route path="/legal-dept" element={<LegalDepartment />} />
+        <Route path="/disability-welfare-dept" element={<DisabilityDepartment />} />
+        <Route path="/tax-department" element={<TaxDepartment />} />
         <Route path="/account-department" element={<AccountDepartment />} />
         <Route path="/electrical-department" element={<ElectricalDepartment />} />
         <Route path="/public-work-department" element={<PublicWorkDepartment />} />
