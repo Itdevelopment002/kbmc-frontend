@@ -455,7 +455,7 @@ transition: all 500ms ease;
   background: #3ea4ed;
   /*padding: 12px 20px 12px 20px;*/
 }
-.main-menu .navigation li.current a{color: #fff;background: #3ea4ed;border-radius: 5px;}
+.main-menu .navigation li.current a{color: #fff !important;background: #3ea4ed !important;border-radius: 5px !important;}
 .main-menu .navigation li a{border-radius: 5px;}
 .main-menu .navigation li a:hover{
   color: #fff;

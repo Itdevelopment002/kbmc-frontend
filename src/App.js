@@ -13,6 +13,8 @@ import './responsive-bkp.css'
 import './owl.css'
 import './nice-select.css'
 import './flaticon.css'
+import './color.css'
+import './animate.css'
 import Footer from './components/Footer/Footer';
 import WhatsAppChat from './components/WhatsAppChat/WhatsAppChat';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
