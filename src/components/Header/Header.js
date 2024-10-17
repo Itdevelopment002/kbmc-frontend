@@ -108,7 +108,7 @@ const Header = () => {
                                         <ul>
                                             <li><Link to="/assets/documents/KBMC CIRCULATION A3 COLOR-Brown-24 (1).pdf" target="_blank">Areas </Link></li>
                                             <li><Link to="/property-holder">Property Holder</Link></li>
-                                            <li><Link to="/properties_milkat">Muncipal Properties</Link></li>
+                                            <li><Link to="/properties-milkat">Muncipal Properties</Link></li>
                                             <li><Link to="/schools">Schools</Link></li>
                                             <li><Link to="/gardens">Gardens</Link></li>
                                             <li><Link to="/electric">Electric</Link></li>
@@ -133,10 +133,10 @@ const Header = () => {
                                     <li className="dropdown"><Link to="#.">Schemes</Link>
                                         <ul>
                                             <li><Link to="assets/documents/Nulm_mahiti.pdf" target="_blank">NULM</Link></li>
-                                            <li><Link to="pmay.php">PMAY</Link></li>
-                                            <li><Link to="nuhm.php">NUHM</Link></li>
-                                            <li><Link to="amrut.php">AMRUT</Link></li>
-                                            <li><Link to="assets/documents/Swachh Bharat Abhiyan (Health).pdf" target="_blank">Swachh Bharat</Link></li>
+                                            <li><Link to="/pmay">PMAY</Link></li>
+                                            <li><Link to="/nuhm">NUHM</Link></li>
+                                            <li><Link to="/amrut">AMRUT</Link></li>
+                                            <li><Link to="assets/documents/Swachh_Bharat_Abhiyan.pdf" target="_blank">Swachh Bharat</Link></li>
                                         </ul>
                                         <div className="dropdown-btn"><span className="fas fa-angle-down"></span></div></li>
                                     <li className="dropdown"><Link to="#.">Complaints</Link>

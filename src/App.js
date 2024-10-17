@@ -15,7 +15,7 @@ import Footer from './components/Footer/Footer';
 import WhatsAppChat from './components/WhatsAppChat/WhatsAppChat';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import Contact from './components/Contact/Contact';
-import PropertyHolder from './components/PropertHolder/PropertyHolder';
+import PropertyHolder from './components/PropertyHolder/PropertyHolder';
 import MunicipalProperties from './components/MunicipalProperties/MunicipalProperties';
 import Schools from './components/Schools/Schools';
 import Gardens from './components/Gardens/Gardens';
@@ -36,6 +36,11 @@ import History from './components/History/History';
 import Wards from './components/Wards/Wards';
 import ElectedWing from './components/ElectedWing/ElectedWing';
 import OrganisationStructure from './components/OrganisationStructure/OrganisationStructure';
+import Pmay from './components/Pmay/Pmay';
+import Nuhm from './components/Nuhm/Nuhm';
+import Amrut from './components/Amrut/Amrut';
+import GenAdminDept from './components/GenAdminDept/GenAdminDept';
+import DeptLayer2 from './components/DeptLayer2/DeptLayer2';
 import PublicDisclosure from './components/PublicDisclosure/PublicDisclosure';
 import CitizenCharter from './components/CitizenCharter/CitizenCharter';
 import RightToService from './components/RightToService/RightToService';
@@ -53,7 +58,6 @@ import HospitalDepartment from './components/HospitalDepartment/HospitalDeparmen
 import FireDepartment from './components/FireDepartment/FireDepartment';
 import BirthDeathDepartment from './components/Birth&DeathDepartment/BirthDeathDepartment';
 
-
 function App() {
   return (
     <Router>
@@ -63,15 +67,15 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/history" element={<History />} />
         <Route path="/ward" element={<Wards />} />
-        <Route path="/electedwing" element={<ElectedWing />} />
-        <Route path="/organisationstructure" element={<OrganisationStructure />} />
+        <Route path="/elected-member" element={<ElectedWing />} />
+        <Route path="/org-structure " element={<OrganisationStructure />} />
         <Route path="/functions" element={<Functions />} />
         <Route path="/departments" element={<Departments />} />
         <Route path="/elected-pre-officer" element={<PreviousChiefOfficers />} />
         <Route path="/elected-pre-representative" element={<PreviousPresidents />} />
         <Route path="/awards" element={<Awards />} />
         <Route path="/property-holder" element={<PropertyHolder />} />
-        <Route path="/properties_milkat" element={<MunicipalProperties />} />
+        <Route path="/properties-milkat" element={<MunicipalProperties />} />
         <Route path="/schools" element={<Schools />} />
         <Route path="/gardens" element={<Gardens />} />
         <Route path="/electric" element={<Electric />} />
@@ -81,6 +85,11 @@ function App() {
         <Route path="/ponds-talao" element={<PondsTalao />} />
         <Route path="/fire-station" element={<FireStation />} />
         <Route path="/private-hospital" element={<PrivateHospital />} />
+        <Route path="/pmay" element={<Pmay />} />
+        <Route path="/nuhm" element={<Nuhm />} />
+        <Route path="/amrut" element={<Amrut />} />
+        <Route path="/general-admin-dept" element={<GenAdminDept />} />
+        <Route path="/dept-layer-2" element={<DeptLayer2 />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/public-disclosure" element={<PublicDisclosure />} />
         <Route path="/citizen-charter" element={<CitizenCharter />} />
@@ -98,18 +107,6 @@ function App() {
         <Route path="/hospital-department" element={<HospitalDepartment />} />
         <Route path="/fire-department" element={<FireDepartment />} />
         <Route path="/birth-death-department" element={<BirthDeathDepartment />} />
-
-
-
-
-
-
-
-
-
-
-
-
       </Routes>
       <ScrollToTop />
       <WhatsAppChat />
