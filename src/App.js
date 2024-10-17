@@ -41,7 +41,22 @@ import Nuhm from './components/Nuhm/Nuhm';
 import Amrut from './components/Amrut/Amrut';
 import GenAdminDept from './components/GenAdminDept/GenAdminDept';
 import DeptLayer2 from './components/DeptLayer2/DeptLayer2';
-
+import PublicDisclosure from './components/PublicDisclosure/PublicDisclosure';
+import CitizenCharter from './components/CitizenCharter/CitizenCharter';
+import RightToService from './components/RightToService/RightToService';
+import TownPlanning from './components/TownPlanning/TownPlanning';
+import Downloads from './components/Downloads/Downloads';
+import OfficialPublication from './components/OfficialPublication/OfficialPublication';
+import TaxDeoartment from './components/TaxDepartment/TaxDeoartment';
+import AccountDepartment from './components/AccountDepartment/AccountDepartment';
+import ElectricalDepartment from './components/ElectricalDepartment/ElectricalDepartment';
+import PublicWorkDepartment from './components/PublicWorkDepartment/PublicWorkDepartment';
+import HealthDepartment from './components/HealthDepartment/HealthDepartment';
+import EducationDepartment from './components/EducationDepartment/EducationDepartment';
+import NULMDepartment from './components/NULMDepartment/NULMDepartment';
+import HospitalDepartment from './components/HospitalDepartment/HospitalDeparment';
+import FireDepartment from './components/FireDepartment/FireDepartment';
+import BirthDeathDepartment from './components/Birth&DeathDepartment/BirthDeathDepartment';
 
 function App() {
   return (
@@ -76,6 +91,22 @@ function App() {
         <Route path="/general-admin-dept" element={<GenAdminDept />} />
         <Route path="/dept-layer-2" element={<DeptLayer2 />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/public-disclosure" element={<PublicDisclosure />} />
+        <Route path="/citizen-charter" element={<CitizenCharter />} />
+        <Route path="/right-to-services" element={<RightToService />} />
+        <Route path="/town-planning" element={<TownPlanning />} />
+        <Route path="/downloads" element={<Downloads />} />
+        <Route path="/official-publication" element={<OfficialPublication />} />
+        <Route path="/tax-department" element={<TaxDeoartment />} />
+        <Route path="/account-department" element={<AccountDepartment />} />
+        <Route path="/electrical-department" element={<ElectricalDepartment />} />
+        <Route path="/public-work-department" element={<PublicWorkDepartment />} />
+        <Route path="/health-department" element={<HealthDepartment />} />
+        <Route path="/education-department" element={<EducationDepartment />} />
+        <Route path="/nulm-department" element={<NULMDepartment />} />
+        <Route path="/hospital-department" element={<HospitalDepartment />} />
+        <Route path="/fire-department" element={<FireDepartment />} />
+        <Route path="/birth-death-department" element={<BirthDeathDepartment />} />
       </Routes>
       <ScrollToTop />
       <WhatsAppChat />
