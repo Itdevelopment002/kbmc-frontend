@@ -57,104 +57,106 @@ const GenAdminDept = () => {
                     <ul class="category-list clearfix">
                       <li>
                         {" "}
-                        <a href="#.">General Admin Department</a>
+                        <a href="/general-admin-dept">
+                          General Admin Department
+                        </a>
                       </li>
                       <li>
                         {" "}
-                        <a href="audit-dept.php">Audit Department</a>
+                        <a href="/audit-dept">Audit Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="tax-department.php">Tax Department</a>
+                        <a href="/tax-department">Tax Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="account-dept.php">Account Department</a>
+                        <a href="/account-department">Account Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="town-planning.php">Town Planning</a>
+                        <a href="/town-planning">Town Planning</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="electrical-dept.php">Electrical Department</a>
+                        <a href="/electrical-department">
+                          Electrical Department
+                        </a>
                       </li>
                       <li>
                         {" "}
-                        <a href="public-work-dept.php">
+                        <a href="/public-work-department">
                           Public Work Department (PWD)
                         </a>
                       </li>
                       <li>
                         {" "}
-                        <a href="income-dept.php">Milkat (Income)</a>
+                        <a href="/income-dept">Milkat (Income)</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="egovernance-dept.php">
-                          E-Governance Department
-                        </a>
+                        <a href="/egovernance-dept">E-Governance Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="health-dept.php">Health Department</a>
+                        <a href="/health-department">Health Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="wcd.php">WCD (Women and Child Development)</a>
+                        <a href="/wcd">WCD (Women and Child Development)</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="advertisement-dept.php">
+                        <a href="/advertisement-dept">
                           Advertisement Department
                         </a>
                       </li>
                       <li>
                         {" "}
-                        <a href="education-dept.php">Education Department</a>
+                        <a href="/education-department">Education Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="#.">Security Department</a>
+                        <a href="/#">Security Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="vehicle-dept.php">Vehicle Department</a>
+                        <a href="/vehicle-dept">Vehicle Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="nulm.php">NULM Department</a>
+                        <a href="/nulm-department">NULM Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="hospital-dept.php">Hospital Department</a>
+                        <a href="/hospital-department">Hospital Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="fire-dept.php">Fire Department</a>
+                        <a href="/fire-department">Fire Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="legal-dept.php">Legal Department</a>
+                        <a href="/legal-dept">Legal Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="disability-welfare-dept.php">
+                        <a href="/disability-welfare-dept">
                           Disability Welfare
                         </a>
                       </li>
                       <li>
                         {" "}
-                        <a href="#.">Store & Records Department</a>
+                        <a href="/#">Store &amp; Records Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="#.">Marriage Registration</a>
+                        <a href="/#">Marriage Registration</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="birth-and-death-dept.php">
-                          Birth & Death Department
+                        <a href="/birth-death-department">
+                          Birth &amp; Death Department
                         </a>
                       </li>
                     </ul>
