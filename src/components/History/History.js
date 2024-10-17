@@ -61,7 +61,7 @@ const History = () => {
                     <img src={ceo} alt="ceo-img" />
                   </figure>
                   <div className="share-box">
-                    <span className="share-text"><i class="fa-solid fa-share-nodes"></i>Share</span>
+                    <span className="share-text"><i class="flaticon-sharing"></i>Share</span>
                     <ul className="share-links">
                       <li><a href="#."><span className="fab fa-facebook-square"></span></a></li>
                       <li><a href="#."><span className="fab fa-twitter-square"></span></a></li>

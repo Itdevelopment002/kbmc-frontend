@@ -106,7 +106,7 @@ const TownPlanning = () => {
                       </a>
                       <div class="pdf-dwnl">
                         <a
-                          href="assets/images/town-planning/pdf/BADLAPUR-D-all-dp.pdf"
+                          href="../../assets/images/town-planning/pdf/BADLAPUR-D-all-dp.pdf"
                           download
                           target="_blank"
                         >
