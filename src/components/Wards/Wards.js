@@ -1,6 +1,5 @@
 // src/components/Wards.js
 import React from 'react';
-import './Wards.css'; // CSS file for styles
 import innerBanner from '../../assets/images/banner/inner-banner.jpg'; // Background image
 
 const Wards = () => {
