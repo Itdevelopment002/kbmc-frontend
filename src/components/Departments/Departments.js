@@ -328,7 +328,7 @@ const Departments = () => {
         </div>
         <div class="pagination-wrapper centred">
         <ul class="pagination clearfix">
-            <li><a href="#."><i className="fas fa-chevron-right"></i></a></li>
+            <li><a href="#."><i className="flaticon-right-chevron"></i></a></li>
             <li><a href="#." class="current">1</a></li>
             <li><a href="#.">2</a></li>
             <li><a href="#.">3</a></li>
