@@ -128,6 +128,7 @@ function App() {
         <Route path="/hospital-department" element={<HospitalDepartment />} />
         <Route path="/fire-department" element={<FireDepartment />} />
         <Route path="/birth-death-department" element={<BirthDeathDepartment />} />
+        
       </Routes>
       <ScrollToTop />
       <WhatsAppChat />
