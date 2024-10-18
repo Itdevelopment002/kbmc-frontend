@@ -15,6 +15,7 @@ import './nice-select.css'
 import './flaticon.css'
 import './color.css'
 import './animate.css'
+import './font-awesome-all.css'
 import Footer from './components/Footer/Footer';
 import WhatsAppChat from './components/WhatsAppChat/WhatsAppChat';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
