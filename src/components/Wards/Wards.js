@@ -15,7 +15,7 @@ const Wards = () => {
                     <div className="content-box">
                         <h1>Wards</h1>
                         <ul className="bread-crumb clearfix">
-                            <li><a href="index.php">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li><span>Wards</span></li>
                         </ul>
                     </div>

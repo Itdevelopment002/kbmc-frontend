@@ -13,7 +13,7 @@ const PreviousPresidents = () => {
                     <div className="content-box">
                         <h1>Previous President's of the council</h1>
                         <ul className="bread-crumb clearfix">
-                            <li><a href="index.php">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li><span>Previous President's of the council</span></li>
                         </ul>
                     </div>

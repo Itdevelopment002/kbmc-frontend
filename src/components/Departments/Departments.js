@@ -14,7 +14,7 @@ const Departments = () => {
             <div class="content-box">
                 <h1>Departments</h1>
                 <ul class="bread-crumb clearfix">
-                    <li><a href="/index">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li><span>Departments</span></li>
                 </ul>
             </div>
@@ -317,7 +317,7 @@ const Departments = () => {
                                 <h3><a href="/birth-and-death-dept">Birth & Death Department</a></h3>
                                 <p>Name of HOD : Shrikant Nikule</p>
                                 <div class="link-box">
-                                    <a href="/birth-and-death-dept"><span>Read More</span></a>
+                                    <a href="/birth-death-department"><span>Read More</span></a>
                                 </div>
                             </div>
                         </div>

@@ -1,18 +1,14 @@
 import React from 'react';
 import './Awards.css'
-
-// Import the background image
-import bannerImage from '../../assets/images/banner/inner-banner.jpg'; // Adjust this path based on your project structure
+import bannerImage from '../../assets/images/banner/inner-banner.jpg'; 
 import awardImage1 from '../../assets/images/awards/img1.jpg';
 import awardImage2 from '../../assets/images/awards/img2.jpg';
 
 const Awards = () => {
   return (
     <div>
-      {/* Page Title Section */}
       <section className="page-title">
         <div className="bg-layer" style={{ backgroundImage: `url(${bannerImage})` }}></div>
-        {/* <div className="pattern-layer" style={{ backgroundImage: 'url(assets/images/shape/shape-25.png)' }}></div> */}
         <div className="line-box">
           <div className="line-1"></div>
           <div className="line-2"></div>
@@ -21,15 +17,13 @@ const Awards = () => {
           <div className="content-box">
             <h1>Awards</h1>
             <ul className="bread-crumb clearfix">
-              <li><a href="index.php">Home</a></li>
+              <li><a href="/">Home</a></li>
               <li><span>Awards</span></li>
             </ul>
           </div>
         </div>
       </section>
-      {/* page-title end */}
-
-      {/* Awards Section */}
+      <br />
       <section className="departments-style-two alternat-2 nuhm_inner">
         <div className="auto-container">
           <div className="content-two">

@@ -14,7 +14,7 @@ const Functions = () => {
                     <div className="content-box">
                         <h1>Functions</h1>
                         <ul className="bread-crumb clearfix">
-                            <li><a href="index.php">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li><span>Functions</span></li>
                         </ul>
                     </div>

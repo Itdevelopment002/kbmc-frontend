@@ -198,10 +198,10 @@ const Header = () => {
                                             <li class="dropdown"><a href="#.">Schemes</a>
                                                 <ul>
                                                     <li><a href="assets/documents/Nulm_mahiti.pdf" target="_blank">NULM</a></li>
-                                                    <li><a href="pmay.php">PMAY</a></li>
-                                                    <li><a href="nuhm.php">NUHM</a></li>
-                                                    <li><a href="amrut.php">AMRUT</a></li>
-                                                    <li><a href="assets/documents/Swachh Bharat Abhiyan (Health).pdf" target="_blank">Swachh Bharat</a></li>
+                                                    <li><a href="/pmay">PMAY</a></li>
+                                                    <li><a href="/nuhm">NUHM</a></li>
+                                                    <li><a href="/amrut">AMRUT</a></li>
+                                                    <li><a href="assets/documents/Swachh_Bharat_Abhiyan.pdf" target="_blank">Swachh Bharat</a></li>
                                                 </ul>
                                             </li>
 

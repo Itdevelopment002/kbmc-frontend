@@ -17,7 +17,7 @@ const OrganisationStructure = () => {
             <div class="content-box">
                 <h1>Organization Structure</h1>
                 <ul class="bread-crumb clearfix">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li><span>Organization Structure</span></li>
                 </ul>
             </div>
@@ -28,7 +28,7 @@ const OrganisationStructure = () => {
             <div class="row">
                 <div class="col-md-3"></div>
                 {/* <!-- <h3>Organization Structure Page Content Coming Soon...</h3> --> */}
-                <div class="col-md-6"><img width="100%" src={img1} class="img-fluid"/></div>
+                <div class="col-md-6"><img width="100%" src={img1} class="img-fluid" alt="" /></div>
                 <div class="col-md-3"></div>
             </div>
         </div>
