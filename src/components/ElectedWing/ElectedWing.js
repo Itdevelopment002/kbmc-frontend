@@ -16,7 +16,7 @@ const ElectedWing = () => {
             <div class="content-box">
                 <h1>Elected Wings</h1>
                 <ul class="bread-crumb clearfix">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li><span>Elected Wings</span></li>
                 </ul>
             </div>

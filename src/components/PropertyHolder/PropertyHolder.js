@@ -32,7 +32,7 @@ const PropertyHolder = () => {
       <br />
       <br />
 
-      <section className="service-style-four mb-5">
+      <section className="service-style-four">
         <div className="auto-container">
           <div className="table-responsive">
             <table className="table table-bordered">

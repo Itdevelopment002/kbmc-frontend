@@ -11,7 +11,7 @@ const Footer = () => {
                             <p>
                                 Copyright &copy; 2024 <a href="#.">KBMC</a>. All rights reserved. 
                                 <span> | </span> 
-                                <a href="#.">Privacy Policy</a> 
+                                <a href="/privacy-policy">Privacy Policy</a> 
                                 <span> | </span> 
                                 <a href="#.">Terms &amp; Conditions</a> 
                                 <span> | </span> 

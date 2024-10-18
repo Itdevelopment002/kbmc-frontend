@@ -51,7 +51,7 @@ const PreviousChiefOfficers = () => {
           <div className="content-box">
             <h1>Previous Chief Officers of the Council</h1>
             <ul className="bread-crumb clearfix">
-              <li><a href="index.php">Home</a></li>
+              <li><a href="/">Home</a></li>
               <li><span>Previous Chief Officers of the Council</span></li>
             </ul>
           </div>

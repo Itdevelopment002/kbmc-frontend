@@ -21,7 +21,7 @@ import WhatsAppChat from './components/WhatsAppChat/WhatsAppChat';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import Contact from './components/Contact/Contact';
 import PropertyHolder from './components/PropertyHolder/PropertyHolder';
-import MunicipalProperties from './components/MunicipalProperties/MunicipalProperties';
+import MuncipalProperties from './components/MuncipalProperties/MuncipalProperties';
 import Schools from './components/Schools/Schools';
 import Gardens from './components/Gardens/Gardens';
 import Electric from './components/Electric/Electric';
@@ -70,6 +70,7 @@ import AdDepartment from './components/AdDepartment/AdDepartment';
 import VehicleDepartment from './components/VehicleDepartment/VehicleDepartment';
 import LegalDepartment from './components/LegalDDepartment/LegalDepartment';
 import DisabilityDepartment from './components/DisabilityDepartment/DisabilityDepartment';
+import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
 
 function App() {
   return (
@@ -88,7 +89,7 @@ function App() {
         <Route path="/elected-pre-representative" element={<PreviousPresidents />} />
         <Route path="/awards" element={<Awards />} />
         <Route path="/property-holder" element={<PropertyHolder />} />
-        <Route path="/properties-milkat" element={<MunicipalProperties />} />
+        <Route path="/properties-milkat" element={<MuncipalProperties />} />
         <Route path="/schools" element={<Schools />} />
         <Route path="/gardens" element={<Gardens />} />
         <Route path="/electric" element={<Electric />} />
@@ -128,6 +129,7 @@ function App() {
         <Route path="/hospital-department" element={<HospitalDepartment />} />
         <Route path="/fire-department" element={<FireDepartment />} />
         <Route path="/birth-death-department" element={<BirthDeathDepartment />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
       <ScrollToTop />
       <WhatsAppChat />

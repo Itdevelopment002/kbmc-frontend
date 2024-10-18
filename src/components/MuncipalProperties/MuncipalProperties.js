@@ -1,7 +1,7 @@
 import React from "react";
 import img1 from "../../assets/images/banner/inner-banner.jpg";
 
-const MunicipalProperties = () => {
+const MuncipalProperties = () => {
   return (
     <>
       <section className="page-title mb-5">
@@ -17,13 +17,13 @@ const MunicipalProperties = () => {
         </div>
         <div className="auto-container">
           <div className="content-box">
-            <h1>Municipal Properties</h1>
+            <h1>Muncipal Properties</h1>
             <ul className="bread-crumb clearfix">
               <li>
                 <a href="#.">City Profile</a>
               </li>
               <li>
-                <span>Municipal Properties</span>
+                <span>Muncipal Properties</span>
               </li>
             </ul>
           </div>
@@ -303,4 +303,4 @@ const MunicipalProperties = () => {
   );
 };
 
-export default MunicipalProperties;
+export default MuncipalProperties;
