@@ -10,7 +10,6 @@ const TreeCensus = () => {
             backgroundImage: "url(assets/images/banner/inner-banner.jpg)",
           }}
         ></div>
-        {/* <div className="pattern-layer" style={{ backgroundImage: 'url(assets/images/shape/shape-25.png)' }}></div> */}
         <div className="line-box">
           <div className="line-1"></div>
           <div className="line-2"></div>
@@ -29,10 +28,7 @@ const TreeCensus = () => {
           </div>
         </div>
       </section>
-      {/* page-title end */}
       <br />
-
-      {/* service-style-four */}
       <section className="service-style-four mt-5">
         <div className="auto-container">
           <h5 className="pb-4">

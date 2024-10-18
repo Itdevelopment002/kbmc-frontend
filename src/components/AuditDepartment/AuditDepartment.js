@@ -18,7 +18,7 @@ const AuditDepartment = () => {
             <h1>Audit Department</h1>
             <ul class="bread-crumb clearfix">
               <li>
-                <a href="departments.php">Departments</a>
+                <a href="/departments">Departments</a>
               </li>
               <li>
                 <span>Audit Department</span>
@@ -62,16 +62,16 @@ const AuditDepartment = () => {
               <div class="department-sidebar">
                 <div class="category-widget">
                   <div class="widget-content">
-                    <ul class="category-list clearfix">
+                  <ul class="category-list clearfix">
                       <li>
                         {" "}
-                        <a href="/general-admin-dept">
+                        <a href="/general-admin-department">
                           General Admin Department
                         </a>
                       </li>
                       <li>
                         {" "}
-                        <a href="/audit-dept">Audit Department</a>
+                        <a href="/audit-department">Audit Department</a>
                       </li>
                       <li>
                         {" "}
@@ -99,11 +99,13 @@ const AuditDepartment = () => {
                       </li>
                       <li>
                         {" "}
-                        <a href="/income-dept">Milkat (Income)</a>
+                        <a href="/income-department">Milkat (Income)</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="/egovernance-dept">E-Governance Department</a>
+                        <a href="/egovernance-department">
+                          E-Governance Department
+                        </a>
                       </li>
                       <li>
                         {" "}
@@ -115,7 +117,7 @@ const AuditDepartment = () => {
                       </li>
                       <li>
                         {" "}
-                        <a href="/advertisement-dept">
+                        <a href="/advertisement-department">
                           Advertisement Department
                         </a>
                       </li>
@@ -125,11 +127,11 @@ const AuditDepartment = () => {
                       </li>
                       <li>
                         {" "}
-                        <a href="/#">Security Department</a>
+                        <a href="#.">Security Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="/vehicle-dept">Vehicle Department</a>
+                        <a href="/vehicle-department">Vehicle Department</a>
                       </li>
                       <li>
                         {" "}
@@ -145,21 +147,21 @@ const AuditDepartment = () => {
                       </li>
                       <li>
                         {" "}
-                        <a href="/legal-dept">Legal Department</a>
+                        <a href="/legal-department">Legal Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="/disability-welfare-dept">
+                        <a href="/disability-welfare-department">
                           Disability Welfare
                         </a>
                       </li>
                       <li>
                         {" "}
-                        <a href="/#">Store &amp; Records Department</a>
+                        <a href="#.">Store &amp; Records Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="/#">Marriage Registration</a>
+                        <a href="#.">Marriage Registration</a>
                       </li>
                       <li>
                         {" "}

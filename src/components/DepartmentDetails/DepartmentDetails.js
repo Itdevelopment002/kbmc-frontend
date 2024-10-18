@@ -15,7 +15,7 @@ import g13 from '../../assets/images/gallery/gallery-13.jpg';
 import v1 from '../../assets/images/home/online-tax.jpg';
 import v2 from '../../assets/images/gallery/ceo-kbmc.jpg';
 import GLightbox from 'glightbox';
-import 'glightbox/dist/css/glightbox.css'; // Import GLightbox CSS
+import 'glightbox/dist/css/glightbox.css';
 
 
 
@@ -23,9 +23,8 @@ import 'glightbox/dist/css/glightbox.css'; // Import GLightbox CSS
 const DepartmentDetails = () => {
 
     useEffect(() => {
-        // Initialize GLightbox
         const lightbox = GLightbox({
-            selector: '.glightbox', // This will match your gallery images
+            selector: '.glightbox', 
         });
     }, []);
 
@@ -184,15 +183,15 @@ const DepartmentDetails = () => {
                             <div class="logo-slider-1">
                                 {/* <!-- <h3>Citizen Services</h3> --> */}
                                 <div class="owl-carousel version-1">
-                                    <div><a href="https://urban.maharashtra.gov.in/" target="_blank"><img src="assets/images/footerlogo/01.png" alt="img1" /></a></div>
-                                    <div><a href="https://www.mygov.in/" target="_blank"><img src="assets/images/footerlogo/02.png" alt="img2" /></a></div>
-                                    <div><a href="https://www.midcindia.org/" target="_blank"><img src="assets/images/footerlogo/03.png" alt="img3" /></a></div>
-                                    <div><a href="https://mmrda.maharashtra.gov.in/" target="_blank"><img src="assets/images/footerlogo/04.png" alt="img4" /></a></div>
-                                    <div><a href="https://www.mpcb.gov.in/" target="_blank"><img src="assets/images/footerlogo/05.png" alt="img5" /></a></div>
-                                    <div><a href="https://divcomkonkan.gov.in/" target="_blank"><img src="assets/images/footerlogo/01.png" alt="img1" /></a></div>
-                                    <div><a href="https://aaplesarkar.mahaonline.gov.in/" target="_blank"><img src="assets/images/footerlogo/06.png" alt="img6" /></a></div>
-                                    <div><a href="https://thane.nic.in/" target="_blank"><img src="assets/images/footerlogo/07.png" alt="img7" /></a></div>
-                                    <div><a href="https://www.eci.gov.in/" target="_blank"><img src="assets/images/footerlogo/08.png" alt="img8" /></a></div>
+                                    <div><a href="https://urban.maharashtra.gov.in/" target="_blank" rel="noreferrer"><img src="assets/images/footerlogo/01.png" alt="img1" /></a></div>
+                                    <div><a href="https://www.mygov.in/" target="_blank" rel="noreferrer"><img src="assets/images/footerlogo/02.png" alt="img2" /></a></div>
+                                    <div><a href="https://www.midcindia.org/" target="_blank" rel="noreferrer"><img src="assets/images/footerlogo/03.png" alt="img3" /></a></div>
+                                    <div><a href="https://mmrda.maharashtra.gov.in/" target="_blank" rel="noreferrer"><img src="assets/images/footerlogo/04.png" alt="img4" /></a></div>
+                                    <div><a href="https://www.mpcb.gov.in/" target="_blank" rel="noreferrer"><img src="assets/images/footerlogo/05.png" alt="img5" /></a></div>
+                                    <div><a href="https://divcomkonkan.gov.in/" target="_blank" rel="noreferrer"><img src="assets/images/footerlogo/01.png" alt="img1" /></a></div>
+                                    <div><a href="https://aaplesarkar.mahaonline.gov.in/" target="_blank" rel="noreferrer"><img src="assets/images/footerlogo/06.png" alt="img6" /></a></div>
+                                    <div><a href="https://thane.nic.in/" target="_blank" rel="noreferrer"><img src="assets/images/footerlogo/07.png" alt="img7" /></a></div>
+                                    <div><a href="https://www.eci.gov.in/" target="_blank" rel="noreferrer"><img src="assets/images/footerlogo/08.png" alt="img8" /></a></div>
                                 </div>
                             </div>
                         </div>

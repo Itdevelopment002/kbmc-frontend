@@ -15,7 +15,7 @@ const PublicDisclosure = () => {
             <div class="content-box">
                 <h1>Public Disclosure</h1>
                 <ul class="bread-crumb clearfix">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li><span>Public Disclosure</span></li>
                 </ul>
             </div>
@@ -29,7 +29,7 @@ const PublicDisclosure = () => {
                     <div class="departments-block-two">
                         <div class="inner-box">
                             <div class="content-box">
-                                <h5><a href="/general-admin-dept">General Admin Department</a></h5>
+                                <h5><a href="/general-admin-department">General Admin Department</a></h5>
                             </div>
                         </div>
                     </div>

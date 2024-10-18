@@ -16,7 +16,7 @@ const Downloads = () => {
                     <div className="content-box">
                         <h1>Downloads</h1>
                         <ul className="bread-crumb clearfix">
-                            <li><Link to="#.">Home</Link></li>
+                            <li><Link to="/">Home</Link></li>
                             <li><span>Downloads</span></li>
                         </ul>
                     </div>

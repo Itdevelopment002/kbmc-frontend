@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.min.css';
-import About from './components/About/About';
 import Header from './components/Header/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "slick-carousel/slick/slick.css";
@@ -68,7 +67,7 @@ import EGovernanceDepartment from './components/EGovernanceDepartment/EGovernanc
 import WcdDepartment from './components/WcdDepartment/WcdDepartment';
 import AdDepartment from './components/AdDepartment/AdDepartment';
 import VehicleDepartment from './components/VehicleDepartment/VehicleDepartment';
-import LegalDepartment from './components/LegalDDepartment/LegalDepartment';
+import LegalDepartment from './components/LegalDepartment/LegalDepartment';
 import DisabilityDepartment from './components/DisabilityDepartment/DisabilityDepartment';
 import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
 
@@ -78,7 +77,6 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<MainHome />} />
-        <Route path="/about" element={<About />} />
         <Route path="/history" element={<History />} />
         <Route path="/ward" element={<Wards />} />
         <Route path="/elected-member" element={<ElectedWing />} />
@@ -102,7 +100,7 @@ function App() {
         <Route path="/pmay" element={<Pmay />} />
         <Route path="/nuhm" element={<Nuhm />} />
         <Route path="/amrut" element={<Amrut />} />
-        <Route path="/general-admin-dept" element={<GenAdminDept />} />
+        <Route path="/general-admin-department" element={<GenAdminDept />} />
         <Route path="/dept-layer-2" element={<DeptLayer2 />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/public-disclosure" element={<PublicDisclosure />} />
@@ -111,14 +109,14 @@ function App() {
         <Route path="/town-planning" element={<TownPlanning />} />
         <Route path="/downloads" element={<Downloads />} />
         <Route path="/official-publication" element={<OfficialPublication />} />
-        <Route path="/audit-dept" element={<AuditDepartment />} />
-        <Route path="/income-dept" element={<IncomeDepartment />} />
-        <Route path="/egovernance-dept" element={<EGovernanceDepartment />} />
+        <Route path="/audit-department" element={<AuditDepartment />} />
+        <Route path="/income-department" element={<IncomeDepartment />} />
+        <Route path="/egovernance-department" element={<EGovernanceDepartment />} />
         <Route path="/wcd" element={<WcdDepartment />} />
-        <Route path="/advertisement-dept" element={<AdDepartment />} />
-        <Route path="/vehicle-dept" element={<VehicleDepartment />} />
-        <Route path="/legal-dept" element={<LegalDepartment />} />
-        <Route path="/disability-welfare-dept" element={<DisabilityDepartment />} />
+        <Route path="/advertisement-department" element={<AdDepartment />} />
+        <Route path="/vehicle-department" element={<VehicleDepartment />} />
+        <Route path="/legal-department" element={<LegalDepartment />} />
+        <Route path="/disability-welfare-department" element={<DisabilityDepartment />} />
         <Route path="/tax-department" element={<TaxDepartment />} />
         <Route path="/account-department" element={<AccountDepartment />} />
         <Route path="/electrical-department" element={<ElectricalDepartment />} />

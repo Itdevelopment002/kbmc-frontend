@@ -18,7 +18,7 @@ const OfficialPublication = () => {
         <div className="content-box">
             <h1>Official Publications</h1>
             <ul className="bread-crumb clearfix">
-                <li><Link to="index.php">Home</Link></li>
+                <li><Link to="/">Home</Link></li>
                 <li><span>Official Publications</span></li>
             </ul>
         </div>
