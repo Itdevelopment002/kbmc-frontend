@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 
 const DeptLayer2 = () => {
+  const [activeIndex, setActiveIndex] = useState(null); // State to track the active accordion
+
+  // Function to handle the click event on an accordion
+  const handleAccordionClick = (index) => {
+    setActiveIndex(activeIndex === index ? null : index); // Toggle active accordion
+  };
+
   return (
     <div>
       <section class="page-title ">
@@ -19,7 +26,7 @@ const DeptLayer2 = () => {
             <h1>General Admin Department</h1>
             <ul class="bread-crumb clearfix">
               <li>
-                <a href="departments.php">Departments</a>
+                <a href="/departments">Departments</a>
               </li>
               <li>
                 <span>General Admin Department</span>
@@ -50,15 +57,16 @@ const DeptLayer2 = () => {
                     </figure>
                   </div>
                 </div>
-                <div class="col-lg-11 col-md-11 col-sm-11 content-column">
-                  <div class="content-box">
-                    <ul class="accordion-box year-accordion-box">
-                      <li class="accordion block">
-                        <div class="acc-btn">
+                <div className="col-lg-11 col-md-11 col-sm-11 content-column">
+                  <div className="content-box">
+                    <ul className="accordion-box year-accordion-box">
+                      {/* First Accordion */}
+                      <li className={`accordion block ${activeIndex === 0 ? 'active-block' : ''}`}>
+                        <div className="acc-btn" onClick={() => handleAccordionClick(0)}>
                           <span class="count-text">01</span>
                           <h3>Year 2021 - 2022</h3>
                         </div>
-                        <div class="acc-content">
+                        <div className="acc-content" style={{ display: activeIndex === 0 ? 'block' : 'none' }}>
                           <div class="row">
                             <div class="col-md-6">
                               <h5 class="pb-3 pl-5">General Meeting</h5>
@@ -170,12 +178,12 @@ const DeptLayer2 = () => {
                           </div>
                         </div>
                       </li>
-                      <li class="accordion block">
-                        <div class="acc-btn">
+                      <li className={`accordion block ${activeIndex === 1 ? 'active-block' : ''}`}>
+                        <div className="acc-btn" onClick={() => handleAccordionClick(1)}>
                           <span class="count-text">02</span>
                           <h3>Year 2022 - 2023</h3>
                         </div>
-                        <div class="acc-content">
+                        <div className="acc-content" style={{ display: activeIndex === 1 ? 'block' : 'none' }}>
                           <div class="row">
                             <div class="col-md-6">
                               <h5 class="pb-3 pl-5">General Meeting</h5>
@@ -287,12 +295,12 @@ const DeptLayer2 = () => {
                           </div>
                         </div>
                       </li>
-                      <li class="accordion block">
-                        <div class="acc-btn">
+                      <li className={`accordion block ${activeIndex === 2 ? 'active-block' : ''}`}>
+                        <div className="acc-btn" onClick={() => handleAccordionClick(2)}>
                           <span class="count-text">03</span>
                           <h3>Year 2023 - 2024</h3>
                         </div>
-                        <div class="acc-content">
+                        <div className="acc-content" style={{ display: activeIndex === 2 ? 'block' : 'none' }}>
                           <div class="row">
                             <div class="col-md-6">
                               <h5 class="pb-3 pl-5">General Meeting</h5>
@@ -401,12 +409,12 @@ const DeptLayer2 = () => {
                           </div>
                         </div>
                       </li>
-                      <li class="accordion block">
-                        <div class="acc-btn">
+                      <li className={`accordion block ${activeIndex === 3 ? 'active-block' : ''}`}>
+                        <div className="acc-btn" onClick={() => handleAccordionClick(3)}>
                           <span class="count-text">04</span>
                           <h3>Year 2024 - 2025</h3>
                         </div>
-                        <div class="acc-content">
+                        <div className="acc-content" style={{ display: activeIndex === 3 ? 'block' : 'none' }}>
                           <div class="row">
                             <div class="col-md-6">
                               <h5 class="pb-3 pl-5">General Meeting</h5>
@@ -430,64 +438,68 @@ const DeptLayer2 = () => {
               <div class="department-sidebar">
                 <div class="category-widget">
                   <div class="widget-content">
-                    <ul class="category-list clearfix">
+                  <ul class="category-list clearfix">
                       <li>
                         {" "}
-                        <a href="#.">General Admin Department</a>
+                        <a href="/general-admin-department">
+                          General Admin Department
+                        </a>
                       </li>
                       <li>
                         {" "}
-                        <a href="audit-dept.php">Audit Department</a>
+                        <a href="/audit-department">Audit Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="tax-department.php">Tax Department</a>
+                        <a href="/tax-department">Tax Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="account-dept.php">Account Department</a>
+                        <a href="/account-department">Account Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="town-planning.php">Town Planning</a>
+                        <a href="/town-planning">Town Planning</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="electrical-dept.php">Electrical Department</a>
+                        <a href="/electrical-department">
+                          Electrical Department
+                        </a>
                       </li>
                       <li>
                         {" "}
-                        <a href="public-work-dept.php">
+                        <a href="/public-work-department">
                           Public Work Department (PWD)
                         </a>
                       </li>
                       <li>
                         {" "}
-                        <a href="income-dept.php">Milkat (Income)</a>
+                        <a href="/income-department">Milkat (Income)</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="egovernance-dept.php">
+                        <a href="/egovernance-department">
                           E-Governance Department
                         </a>
                       </li>
                       <li>
                         {" "}
-                        <a href="health-dept.php">Health Department</a>
+                        <a href="/health-department">Health Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="wcd.php">WCD (Women and Child Development)</a>
+                        <a href="/wcd">WCD (Women and Child Development)</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="advertisement-dept.php">
+                        <a href="/advertisement-department">
                           Advertisement Department
                         </a>
                       </li>
                       <li>
                         {" "}
-                        <a href="education-dept.php">Education Department</a>
+                        <a href="/education-department">Education Department</a>
                       </li>
                       <li>
                         {" "}
@@ -495,33 +507,33 @@ const DeptLayer2 = () => {
                       </li>
                       <li>
                         {" "}
-                        <a href="vehicle-dept.php">Vehicle Department</a>
+                        <a href="/vehicle-department">Vehicle Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="nulm.php">NULM Department</a>
+                        <a href="/nulm-department">NULM Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="hospital-dept.php">Hospital Department</a>
+                        <a href="/hospital-department">Hospital Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="fire-dept.php">Fire Department</a>
+                        <a href="/fire-department">Fire Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="legal-dept.php">Legal Department</a>
+                        <a href="/legal-department">Legal Department</a>
                       </li>
                       <li>
                         {" "}
-                        <a href="disability-welfare-dept.php">
+                        <a href="/disability-welfare-department">
                           Disability Welfare
                         </a>
                       </li>
                       <li>
                         {" "}
-                        <a href="#.">Store & Records Department</a>
+                        <a href="#.">Store &amp; Records Department</a>
                       </li>
                       <li>
                         {" "}
@@ -529,8 +541,8 @@ const DeptLayer2 = () => {
                       </li>
                       <li>
                         {" "}
-                        <a href="birth-and-death-dept.php">
-                          Birth & Death Department
+                        <a href="/birth-death-department">
+                          Birth &amp; Death Department
                         </a>
                       </li>
                     </ul>

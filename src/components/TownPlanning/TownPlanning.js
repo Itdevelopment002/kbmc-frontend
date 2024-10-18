@@ -3,25 +3,9 @@ import { Link } from "react-router-dom";
 import GLightbox from "glightbox";
 import "glightbox/dist/css/glightbox.min.css";
 import innerBanner from "../../assets/images/banner/inner-banner.jpg";
-import badlapurDp from "../../assets/images/town-planning/BADLAPUR-D-all-dp.jpg";
-import mankivaliImage from "../../assets/images/town-planning/01-Mankivali.jpg";
-import badlapur1Image from "../../assets/images/town-planning/02-Badlapur-1.jpg";
-import katrapImage from "../../assets/images/town-planning/03-Katrap.jpg";
-import Joveli from "../../assets/images/town-planning/04-Joveli.jpg";
-import yernzad from "../../assets/images/town-planning/05-Yernzad.jpg";
-import badalpur2 from "../../assets/images/town-planning/06-Badlapur-2.jpg";
-import valvili from "../../assets/images/town-planning/07-Valivli.jpg";
-import belavali from "../../assets/images/town-planning/08-Belavali.jpg";
-import manjarli from "../../assets/images/town-planning/09-Manjarli.jpg";
-import sanavali from "../../assets/images/town-planning/10-Sonivali.jpg";
-import kharvai from "../../assets/images/town-planning/11-Kharvai.jpg";
-import shirgaon from "../../assets/images/town-planning/12-Shirgaon-2.jpg";
-import shirgaon2 from "../../assets/images/town-planning/13-Shirgaon-02.jpg";
-import kulgaon from "../../assets/images/town-planning/14-Kulgaon.jpg";
 
 const TownPlanning = () => {
   useEffect(() => {
-    // Initialize GLightbox when the component is mounted
     const lightbox = GLightbox({
       selector: ".glightbox",
       touchNavigation: true,
@@ -30,10 +14,10 @@ const TownPlanning = () => {
     });
 
     return () => {
-      // Cleanup on unmount
       lightbox.destroy();
     };
   }, []);
+
   return (
     <div>
       <section class="page-title ">
@@ -50,7 +34,7 @@ const TownPlanning = () => {
             <h1>Town Planning Department</h1>
             <ul class="bread-crumb clearfix">
               <li>
-                <a href="departments.php">Departments</a>
+                <a href="/departments">Departments</a>
               </li>
               <li>
                 <span>Town Planning Department</span>

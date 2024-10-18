@@ -105,7 +105,6 @@ const Contact = () => {
           </div>
         </div>
       </section>
-      {/* Contact Style Two */}
       <section className="contact-style-two mb-5">
         <div className="auto-container">
           <div className="row clearfix">

@@ -17,17 +17,11 @@ import s14 from '../../assets/images/icons/Elected Wings-WH.png'
 import s15 from '../../assets/images/icons/Official Publications.png'
 import s16 from '../../assets/images/icons/Official Publications-WH.png'
 
-
-
-
 const ServicesHome = () => {
     return (
         <div className="container-fluid">
             <section className="service-section-new">
                 <section className="council-section service-home">
-                    {/* <!-- <div className="text-box">
-                        <h4>Services</h4><br />
-                    </div> --> */}
                     <div className="service-sec">
                         <div className="row align-items-center">
                             <div className="col-lg-12 col-md-12 col-sm-12 links-column">

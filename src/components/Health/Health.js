@@ -10,9 +10,7 @@ const Health = () => {
         <div
           className="bg-layer"
           style={{ backgroundImage: `url(${bannerImage})` }}
-        ></div>
-        {/* Uncomment if the shape image is necessary */}
-        {/* <div className="pattern-layer" style={{ backgroundImage: `url(${shapeImage})` }}></div> */}
+        ></div>=
         <div className="line-box">
           <div className="line-1"></div>
           <div className="line-2"></div>

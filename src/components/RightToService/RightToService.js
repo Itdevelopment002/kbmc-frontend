@@ -7,7 +7,6 @@ const RightToService = () => {
         <>
             <section class="page-title ">
                 <div className="bg-layer" style={{ backgroundImage: `url(${innerBanner})` }}></div>
-                {/* <!-- <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-25.png);"></div> --> */}
                 <div class="line-box">
                     <div class="line-1"></div>
                     <div class="line-2"></div>
@@ -16,7 +15,7 @@ const RightToService = () => {
                     <div class="content-box">
                         <h1>Right to Service</h1>
                         <ul class="bread-crumb clearfix">
-                            <li><a href="index.php">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li><span>Right to Service</span></li>
                         </ul>
                     </div>

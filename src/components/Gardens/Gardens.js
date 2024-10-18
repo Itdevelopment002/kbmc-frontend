@@ -42,13 +42,11 @@ const Gardens = () => {
           </div>
         </div>
       </section>
-      {/* Page Title End */}
       <br />
       <br />
       <br />
       <br />
 
-      {/* Gallery */}
       <div className="auto-container mb-5 mt-5">
         <div className="col-lg-12 col-md-12 col-sm-12 content-side">
           <div className="department-details-content">
