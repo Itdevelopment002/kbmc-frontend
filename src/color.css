@@ -45,7 +45,7 @@
 
 .main-menu .navigation > li.current > a,
 .main-menu .navigation > li:hover > a{
-  color: #3ea4ed;
+  color: #ffffff;
 }
 
 .main-menu .navigation > li > ul > li > a:hover,
@@ -72,15 +72,15 @@
 }
 
 .theme-btn.btn-one{
-  background: #29aae1;
+  background: #0b436a;
 }
 
 .theme-btn.btn-one:hover{
-  background: #3ea4ed;
+  background: #0b436a;
 }
 
 .theme-btn.btn-one:before{
-	background: #3ea4ed;
+	background: #0b436a;
 }
 
 .banner-carousel .content-box .btn-box .video-btn i{
