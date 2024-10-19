@@ -1,6 +1,9 @@
 import React from "react";
-import bannerImage from "../../assets/images/banner/inner-banner.jpg";
-// import shapeImage from 'assets/images/shape/shape-25.png';
+import innerBanner from "../../assets/images/banner/inner-banner.jpg";
+import img1 from "../../assets/images/health/img1.jpg"
+import img2 from "../../assets/images/health/img2.jpg"
+import img3 from "../../assets/images/health/img3.jpg"
+import img4 from "../../assets/images/health/img4.jpg"
 
 const Health = () => {
   return (
@@ -9,8 +12,10 @@ const Health = () => {
       <section className="page-title">
         <div
           className="bg-layer"
-          style={{ backgroundImage: `url(${bannerImage})` }}
-        ></div>=
+          style={{
+            backgroundImage: `url(${innerBanner})`,
+          }}
+        ></div>
         <div className="line-box">
           <div className="line-1"></div>
           <div className="line-2"></div>
@@ -444,25 +449,25 @@ const Health = () => {
 
           <div class="row mt-3 pmay_img">
             <div class="col-md-3">
-              <img src="assets/images/health/img1.jpg" alt="img1" />
+              <img src={img1} alt="img1" />
               <h6 class="text-center">
                 Decentralized Pit Composting Plant, Manjarli
               </h6>
             </div>
             <div class="col-md-3">
-              <img src="assets/images/health/img2.jpg" alt="img2" />
+              <img src={img2} alt="img2" />
               <h6 class="text-center">
                 Decentralized Pit Composting Plant, Manjarli
               </h6>
             </div>
             <div class="col-md-3">
-              <img src="assets/images/health/img3.jpg" alt="img3" />
+              <img src={img3} alt="img3" />
               <h6 class="text-center">
                 Decentralized Pit Composting Plant, Juveli
               </h6>
             </div>
             <div class="col-md-3">
-              <img src="assets/images/health/img4.jpg" alt="img4" />
+              <img src={img4} alt="img4" />
               <h6 class="text-center">Biogas Plant, Vadavali</h6>
             </div>
           </div>

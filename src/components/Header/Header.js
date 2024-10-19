@@ -6,6 +6,8 @@ import img1 from "../../assets/images/satymev-jayate-3.png";
 import img2 from "../../assets/images/icons/icon-25.png";
 import img3 from "../../assets/images/kbmc_logo.jpg";
 import img5 from "../../assets/images/icons/icon-4.png";
+import nulm from "../../assets/documents/Nulm_mahiti.pdf"
+import areas from "../../assets/documents/KBMC CIRCULATION A3 COLOR-Brown-24 (1).pdf"
 import "./Header.css";
 
 const Header = () => {
@@ -194,7 +196,7 @@ const Header = () => {
               <div class="logo-box">
                 <figure class="logo">
                   <a href="/">
-                    <img src="assets/images/kbmc_logo.jpg" alt="logo" />
+                    <img src={img3} alt="logo" />
                   </a>
                 </figure>
               </div>
@@ -254,7 +256,7 @@ const Header = () => {
                         <ul>
                           <li>
                             <a
-                              href="assets/documents/KBMC CIRCULATION A3 COLOR-Brown-24 (1).pdf"
+                              href={areas}
                               target="_blank"
                               rel="noreferrer"
                             >
@@ -360,7 +362,7 @@ const Header = () => {
                         <ul>
                           <li>
                             <a
-                              href="assets/documents/Nulm_mahiti.pdf"
+                              href={nulm}
                               target="_blank"
                               rel="noreferrer"
                             >

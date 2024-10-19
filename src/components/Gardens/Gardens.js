@@ -1,6 +1,38 @@
 import React, { useState } from "react";
 import GLightbox from "glightbox";
 import "glightbox/dist/css/glightbox.css";
+import innerBanner from "../../assets/images/banner/inner-banner.jpg";
+import img1 from '../../assets/images/gardens/ambernath-buglow-gardens/img1.jpg';
+import img2 from '../../assets/images/gardens/ambernath-buglow-gardens/img2.jpg';
+import img3 from '../../assets/images/gardens/ambernath-buglow-gardens/img3.jpg';
+import img4 from '../../assets/images/gardens/ambernath-buglow-gardens/img4.jpg';
+import img5 from '../../assets/images/gardens/ambernath-buglow-gardens/img5.jpg';
+import img6 from "../../assets/images/gardens/badlapur-gymkhana/img1.jpg";
+import img7 from "../../assets/images/gardens/badlapur-gymkhana/img2.jpg";
+import img8 from "../../assets/images/gardens/badlapur-gymkhana/img3.jpg";
+import img9 from "../../assets/images/gardens/badlapur-gymkhana/img4.jpg";
+import img10 from "../../assets/images/gardens/badlapur-gymkhana/img5.jpg";
+import img11 from "../../assets/images/gardens/badlapur-gymkhana/img6.jpg";
+import img12 from "../../assets/images/gardens/balasaheb-takare-udyan/img1.jpg"
+import img13 from "../../assets/images/gardens/balasaheb-takare-udyan/img2.jpg"
+import img14 from "../../assets/images/gardens/balasaheb-takare-udyan/img3.jpg"
+import img15 from "../../assets/images/gardens/balasaheb-takare-udyan/img4.jpg"
+import img16 from "../../assets/images/gardens/balasaheb-takare-udyan/img5.jpg"
+import img17 from "../../assets/images/gardens/balasaheb-takare-udyan/img6.jpg"
+import img18 from "../../assets/images/gardens/balasaheb-takare-udyan/img7.jpg"
+import img19 from "../../assets/images/gardens/balasaheb-takare-udyan/img8.jpg"
+import img20 from "../../assets/images/gardens/balasaheb-takare-udyan/img9.jpg"
+import img21 from "../../assets/images/gardens/balasaheb-takare-udyan/img10.jpg"
+import img22 from "../../assets/images/gardens/balasaheb-takare-udyan/img11.jpg"
+import img23 from "../../assets/images/gardens/balasaheb-takare-udyan/img12.jpg"
+import img24 from '../../assets/images/gardens/chaitanya-sankul-garden/img1.jpg';
+import img25 from '../../assets/images/gardens/chaitanya-sankul-garden/img2.jpg';
+import img26 from '../../assets/images/gardens/chaitanya-sankul-garden/img3.jpg';
+import img27 from '../../assets/images/gardens/chaitanya-sankul-garden/img4.jpg';
+import img28 from '../../assets/images/gardens/chaitanya-sankul-garden/img5.jpg';
+import img29 from '../../assets/images/gardens/chaitanya-sankul-garden/img6.jpg';
+import img30 from '../../assets/images/gardens/chaitanya-sankul-garden/img7.jpg';
+import img31 from '../../assets/images/gardens/anand-dighe-sabhagruh/img1.jpg'
 
 const Gardens = () => {
   const [activeTab, setActiveTab] = useState("#tab-1");
@@ -21,7 +53,7 @@ const Gardens = () => {
         <div
           className="bg-layer"
           style={{
-            backgroundImage: "url(assets/images/banner/inner-banner.jpg)",
+            backgroundImage: `url(${innerBanner})`,
           }}
         ></div>
         <div className="line-box">
@@ -106,61 +138,61 @@ const Gardens = () => {
                     <div className="content-box department-section">
                       <div className="row">
                         <a
-                          href="assets/images/gardens/ambernath-buglow-gardens/img1.jpg"
+                          href={img1}
                           data-toggle="lightbox"
                           data-gallery="example-gallery1"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/ambernath-buglow-gardens/img1.jpg"
+                            src={img1}
                             alt="img1"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/ambernath-buglow-gardens/img2.jpg"
+                          href={img2}
                           data-toggle="lightbox"
                           data-gallery="example-gallery1"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/ambernath-buglow-gardens/img2.jpg"
+                            src={img2}
                             alt="img2"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/ambernath-buglow-gardens/img3.jpg"
+                          href={img3}
                           data-toggle="lightbox"
                           data-gallery="example-gallery1"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/ambernath-buglow-gardens/img3.jpg"
+                            src={img3}
                             alt="img3"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/ambernath-buglow-gardens/img4.jpg"
+                          href={img4}
                           data-toggle="lightbox"
                           data-gallery="example-gallery1"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/ambernath-buglow-gardens/img4.jpg"
+                            src={img4}
                             alt="img4"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/ambernath-buglow-gardens/img5.jpg"
+                          href={img5}
                           data-toggle="lightbox"
                           data-gallery="example-gallery1"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/ambernath-buglow-gardens/img5.jpg"
+                            src={img5}
                             alt="img5"
                             className="img-fluid"
                           />
@@ -172,73 +204,73 @@ const Gardens = () => {
                     <div className="content-box department-section">
                       <div className="row">
                         <a
-                          href="assets/images/gardens/badlapur-gymkhana/img1.jpg"
+                          href={img6}
                           data-toggle="lightbox"
                           data-gallery="example-gallery2"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/badlapur-gymkhana/img1.jpg"
+                            src={img6}
                             alt="img1"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/badlapur-gymkhana/img2.jpg"
+                          href={img7}
                           data-toggle="lightbox"
                           data-gallery="example-gallery2"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/badlapur-gymkhana/img2.jpg"
+                            src={img7}
                             alt="img2"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/badlapur-gymkhana/img3.jpg"
+                          href={img8}
                           data-toggle="lightbox"
                           data-gallery="example-gallery2"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/badlapur-gymkhana/img3.jpg"
+                            src={img8}
                             alt="img3"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/badlapur-gymkhana/img4.jpg"
+                          href={img9}
                           data-toggle="lightbox"
                           data-gallery="example-gallery2"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/badlapur-gymkhana/img4.jpg"
+                            src={img9}
                             alt="img4"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/badlapur-gymkhana/img5.jpg"
+                          href={img10}
                           data-toggle="lightbox"
                           data-gallery="example-gallery2"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/badlapur-gymkhana/img5.jpg"
+                            src={img10}
                             alt="img5"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/badlapur-gymkhana/img6.jpg"
+                          href={img11}
                           data-toggle="lightbox"
                           data-gallery="example-gallery2"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/badlapur-gymkhana/img6.jpg"
+                            src={img11}
                             alt="img6"
                             className="img-fluid"
                           />
@@ -250,145 +282,145 @@ const Gardens = () => {
                     <div className="content-box department-section">
                       <div className="row">
                         <a
-                          href="assets/images/gardens/balasaheb-takare-udyan/img1.jpg"
+                          href={img12}
                           data-toggle="lightbox"
                           data-gallery="example-gallery3"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/balasaheb-takare-udyan/img1.jpg"
+                            src={img12}
                             alt="img1"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/balasaheb-takare-udyan/img2.jpg"
+                          href={img13}
                           data-toggle="lightbox"
                           data-gallery="example-gallery3"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/balasaheb-takare-udyan/img2.jpg"
+                            src={img13}
                             alt="img2"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/balasaheb-takare-udyan/img3.jpg"
+                          href={img14}
                           data-toggle="lightbox"
                           data-gallery="example-gallery3"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/balasaheb-takare-udyan/img3.jpg"
+                            src={img14}
                             alt="img3"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/balasaheb-takare-udyan/img4.jpg"
+                          href={img15}
                           data-toggle="lightbox"
                           data-gallery="example-gallery3"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/balasaheb-takare-udyan/img4.jpg"
+                            src={img15}
                             alt="img4"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/balasaheb-takare-udyan/img5.jpg"
+                          href={img16}
                           data-toggle="lightbox"
                           data-gallery="example-gallery3"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/balasaheb-takare-udyan/img5.jpg"
+                            src={img16}
                             alt="img5"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/balasaheb-takare-udyan/img6.jpg"
+                          href={img17}
                           data-toggle="lightbox"
                           data-gallery="example-gallery3"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/balasaheb-takare-udyan/img6.jpg"
+                            src={img17}
                             alt="img6"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/balasaheb-takare-udyan/img7.jpg"
+                          href={img18}
                           data-toggle="lightbox"
                           data-gallery="example-gallery3"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/balasaheb-takare-udyan/img7.jpg"
+                            src={img18}
                             alt="img7"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/balasaheb-takare-udyan/img8.jpg"
+                          href={img19}
                           data-toggle="lightbox"
                           data-gallery="example-gallery3"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/balasaheb-takare-udyan/img8.jpg"
+                            src={img19}
                             alt="img8"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/balasaheb-takare-udyan/img9.jpg"
+                          href={img20}
                           data-toggle="lightbox"
                           data-gallery="example-gallery3"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/balasaheb-takare-udyan/img9.jpg"
+                            src={img20}
                             alt="img9"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/balasaheb-takare-udyan/img10.jpg"
+                          href={img21}
                           data-toggle="lightbox"
                           data-gallery="example-gallery3"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/balasaheb-takare-udyan/img10.jpg"
+                            src={img21}
                             alt="img10"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/balasaheb-takare-udyan/img11.jpg"
+                          href={img22}
                           data-toggle="lightbox"
                           data-gallery="example-gallery3"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/balasaheb-takare-udyan/img11.jpg"
+                            src={img22}
                             alt="img11"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/balasaheb-takare-udyan/img12.jpg"
+                          href={img23}
                           data-toggle="lightbox"
                           data-gallery="example-gallery3"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/balasaheb-takare-udyan/img12.jpg"
+                            src={img23}
                             alt="img12"
                             className="img-fluid"
                           />
@@ -400,85 +432,85 @@ const Gardens = () => {
                     <div className="content-box department-section">
                       <div className="row">
                         <a
-                          href="assets/images/gardens/chaitanya-sankul-garden/img1.jpg"
+                          href={img24}
                           data-toggle="lightbox"
                           data-gallery="example-gallery4"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/chaitanya-sankul-garden/img1.jpg"
+                            src={img24}
                             alt="img1"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/chaitanya-sankul-garden/img2.jpg"
+                          href={img25}
                           data-toggle="lightbox"
                           data-gallery="example-gallery4"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/chaitanya-sankul-garden/img2.jpg"
+                            src={img25}
                             alt="img2"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/chaitanya-sankul-garden/img3.jpg"
+                          href={img26}
                           data-toggle="lightbox"
                           data-gallery="example-gallery4"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/chaitanya-sankul-garden/img3.jpg"
+                            src={img26}
                             alt="img3"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/chaitanya-sankul-garden/img4.jpg"
+                          href={img27}
                           data-toggle="lightbox"
                           data-gallery="example-gallery4"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/chaitanya-sankul-garden/img4.jpg"
+                            src={img27}
                             alt="img4"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/chaitanya-sankul-garden/img5.jpg"
+                          href={img28}
                           data-toggle="lightbox"
                           data-gallery="example-gallery4"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/chaitanya-sankul-garden/img5.jpg"
+                            src={img28}
                             alt="img5"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/chaitanya-sankul-garden/img6.jpg"
+                          href={img29}
                           data-toggle="lightbox"
                           data-gallery="example-gallery4"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/chaitanya-sankul-garden/img6.jpg"
+                            src={img29}
                             alt="img6"
                             className="img-fluid"
                           />
                         </a>
                         <a
-                          href="assets/images/gardens/chaitanya-sankul-garden/img7.jpg"
+                          href={img30}
                           data-toggle="lightbox"
                           data-gallery="example-gallery4"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/chaitanya-sankul-garden/img7.jpg"
+                            src={img30}
                             alt="img7"
                             className="img-fluid"
                           />
@@ -490,13 +522,13 @@ const Gardens = () => {
                     <div className="content-box department-section">
                       <div className="row">
                         <a
-                          href="assets/images/gardens/anand-dighe-sabhagruh/img1.jpg"
+                          href={img31}
                           data-toggle="lightbox"
-                          data-gallery="example-gallery4"
+                          data-gallery="example-gallery5"
                           className="col-sm-2 glightbox"
                         >
                           <img
-                            src="assets/images/gardens/anand-dighe-sabhagruh/img1.jpg"
+                            src={img31}
                             alt="img1"
                             className="img-fluid"
                           />

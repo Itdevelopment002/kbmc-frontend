@@ -1,4 +1,11 @@
 import React from "react";
+import innerBanner from "../../assets/images/banner/inner-banner.jpg";
+import img1 from "../../assets/images/pmay/img1.jpg";
+import img2 from "../../assets/images/pmay/img2.jpg";
+import img3 from "../../assets/images/pmay/img3.jpg";
+import img4 from "../../assets/images/pmay/img4.jpg";
+import img5 from "../../assets/images/pmay/img5.jpg";
+import img6 from "../../assets/images/pmay/img6.jpg";
 
 const Pmay = () => {
   return (
@@ -7,7 +14,7 @@ const Pmay = () => {
         <div
           className="bg-layer"
           style={{
-            backgroundImage: "url(assets/images/banner/inner-banner.jpg)",
+            backgroundImage: `url(${innerBanner})`,
           }}
         ></div>
         <div className="line-box">
@@ -277,22 +284,22 @@ const Pmay = () => {
           </h5>
           <div class="row mt-3 pmay_img">
             <div class="col-md-4">
-              <img src="assets/images/pmay/img1.jpg" alt="img1" />
+              <img src={img1} alt="img1" />
             </div>
             <div class="col-md-4">
-              <img src="assets/images/pmay/img2.jpg" alt="img2" />
+              <img src={img2} alt="img2" />
             </div>
             <div class="col-md-4">
-              <img src="assets/images/pmay/img3.jpg" alt="img3" />
+              <img src={img3} alt="img3" />
             </div>
             <div class="col-md-4">
-              <img src="assets/images/pmay/img4.jpg" alt="img4" />
+              <img src={img4} alt="img4" />
             </div>
             <div class="col-md-4">
-              <img src="assets/images/pmay/img5.jpg" alt="img5" />
+              <img src={img5} alt="img5" />
             </div>
             <div class="col-md-4">
-              <img src="assets/images/pmay/img6.jpg" alt="img6" />
+              <img src={img6} alt="img6" />
             </div>
           </div>
         </div>

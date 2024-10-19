@@ -1,10 +1,24 @@
 import React from "react";
+import { useForm } from "react-hook-form";
 import innerBanner from "../../assets/images/banner/inner-banner.jpg";
 import Location from "../../assets/images/icons/Location Icon.png";
 import Quick from "../../assets/images/icons/Quick Contact Icon.png";
 import Off from "../../assets/images/icons/Off hours Icon.png";
 
 const Contact = () => {
+  // Initialize react-hook-form
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+
+  // Submit handler function
+  const onSubmit = (data) => {
+    console.log(data);
+    // You can handle form submission logic here, such as sending data to the server
+  };
+
   return (
     <>
       <section className="page-title">
@@ -12,7 +26,6 @@ const Contact = () => {
           className="bg-layer"
           style={{ backgroundImage: `url(${innerBanner})` }}
         ></div>
-        {/* <div className="pattern-layer" style={{ backgroundImage: 'url(assets/images/shape/shape-25.png)' }}></div> */}
         <div className="line-box">
           <div className="line-1"></div>
           <div className="line-2"></div>
@@ -43,10 +56,7 @@ const Contact = () => {
                     <div className="info-block-one">
                       <div className="inner-box">
                         <div className="icon-box">
-                          <img
-                            src={Location}
-                            alt="Location Icon"
-                          />
+                          <img src={Location} alt="Location Icon" />
                         </div>
                         <h3>Location</h3>
                         <div className="text-box">
@@ -62,10 +72,7 @@ const Contact = () => {
                     <div className="info-block-one">
                       <div className="inner-box">
                         <div className="icon-box">
-                          <img
-                            src={Quick}
-                            alt="Quick Contact Icon"
-                          />
+                          <img src={Quick} alt="Quick Contact Icon" />
                         </div>
                         <h3>Quick Contact</h3>
                         <div className="text-box">
@@ -84,10 +91,7 @@ const Contact = () => {
                     <div className="info-block-one">
                       <div className="inner-box">
                         <div className="icon-box">
-                          <img
-                            src={Off}
-                            alt="Off hours Icon"
-                          />
+                          <img src={Off} alt="Off hours Icon" />
                         </div>
                         <h3>Off Hours</h3>
                         <div className="text-box">
@@ -108,7 +112,7 @@ const Contact = () => {
       <section className="contact-style-two mb-5">
         <div className="auto-container">
           <div className="row clearfix">
-            <div className="col-lg-6 col-md-12 col-sm-12 map-column">
+            <div className="col-lg-6 col-md-12 col-sm-12 map-column" style={{overflowX: 'hidden'}}>
               <div className="map-inner">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.6714464400943!2d73.23056668507914!3d19.165853902897943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be792d35920ed4d%3A0x17d29709cf64ec88!2sKulgoan%20Badlapur%20Municipal%20Council!5e0!3m2!1sen!2sin!4v1717412383057!5m2!1sen!2sin"
@@ -125,62 +129,72 @@ const Contact = () => {
               <div className="content-box">
                 <div className="sec-title">
                   <h2>Send Your Feedback</h2>
-                  <p>
-                    Fill out this form to send your inquiries or complaints.
-                  </p>
+                  <p>Fill out this form to send your inquiries or complaints.</p>
                 </div>
                 <div className="form-inner">
-                  <form
-                    method="post"
-                    action="sendemail.php"
-                    id="contact-form"
-                    className="default-form"
-                  >
+                  <form onSubmit={handleSubmit(onSubmit)} id="contact-form">
                     <div className="row clearfix">
                       <div className="col-lg-12 col-md-12 col-sm-12 form-group">
                         <input
                           type="text"
-                          name="username"
                           placeholder="Your Name"
-                          required
+                          {...register("username", { required: true })}
                         />
+                        {errors.username && (
+                          <p style={{ color: "red" }}>Name is required</p>
+                        )}
                       </div>
                       <div className="col-lg-6 col-md-6 col-sm-12 form-group">
                         <input
                           type="text"
-                          name="mobileno"
                           placeholder="Mobile No."
-                          required
+                          {...register("mobileno", { required: true })}
                         />
+                        {errors.mobileno && (
+                          <p style={{ color: "red" }}>Mobile No. is required</p>
+                        )}
                       </div>
                       <div className="col-lg-6 col-md-6 col-sm-12 form-group">
                         <input
                           type="text"
-                          name="subject"
                           placeholder="Subject"
-                          required
+                          {...register("subject", { required: true })}
                         />
+                        {errors.subject && (
+                          <p style={{ color: "red" }}>Subject is required</p>
+                        )}
                       </div>
                       <div className="col-lg-12 col-md-12 col-sm-12 form-group">
                         <input
                           type="email"
-                          name="email"
                           placeholder="Email Address"
-                          required
+                          {...register("email", {
+                            required: true,
+                            pattern: /^[^@ ]+@[^@ ]+\.[^@ .]{2,}$/,
+                          })}
                         />
+                        {errors.email && (
+                          <p style={{ color: "red" }}>
+                            {errors.email.type === "required"
+                              ? "Email is required"
+                              : "Enter a valid email"}
+                          </p>
+                        )}
                       </div>
                       <div className="col-lg-12 col-md-12 col-sm-12 form-group">
                         <textarea
-                          name="message"
                           placeholder="Your Feedback ..."
-                        />
+                          {...register("message", { required: true })}
+                        ></textarea>
+                        {errors.message && (
+                          <p style={{ color: "red" }}>Message is required</p>
+                        )}
                       </div>
                       <div className="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
                         <button
                           className="theme-btn btn-one"
                           style={{ backgroundColor: "#29aae1" }}
                           type="submit"
-                          name="submit-form"
                         >
                           Send a Message
                         </button>
@@ -198,3 +212,4 @@ const Contact = () => {
 };
 
 export default Contact;
+

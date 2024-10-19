@@ -1,4 +1,40 @@
 import React, { useState } from "react";
+import innerBanner from "../../assets/images/banner/inner-banner.jpg";
+import pdf1 from "../../assets/documents/general_admin_deprt/year-2021-22/01_Prashaskiy Tharav April - 2021.pdf"
+import pdf2 from "../../assets/documents/general_admin_deprt/year-2021-22/02_Prashaskiy Tharav May - 2021.pdf"
+import pdf3 from "../../assets/documents/general_admin_deprt/year-2021-22/03_Prashaskiy Tharav June - 2021.pdf"
+import pdf4 from "../../assets/documents/general_admin_deprt/year-2021-22/04_Prashaskiy Tharav July - 2021.pdf"
+import pdf5 from "../../assets/documents/general_admin_deprt/year-2021-22/05_Prashaskiy Tharav Aug - 2021.pdf"
+import pdf6 from "../../assets/documents/general_admin_deprt/year-2021-22/06_Prashaskiy Tharav Sept - 2021.pdf"
+import pdf7 from "../../assets/documents/general_admin_deprt/year-2021-22/07_Prashaskiy Tharav Oct - 2021.pdf"
+import pdf8 from "../../assets/documents/general_admin_deprt/year-2021-22/08_Prashaskiy Tharav Nov - 2021.pdf"
+import pdf9 from "../../assets/documents/general_admin_deprt/year-2021-22/09_Prashaskiy Tharav Dec - 2021.pdf"
+import pdf10 from "../../assets/documents/general_admin_deprt/year-2021-22/10_Prashaskiy Tharav Jan - 2022.pdf"
+import pdf11 from "../../assets/documents/general_admin_deprt/year-2021-22/11_Prashaskiy Tharav Feb - 2022.pdf"
+import pdf12 from "../../assets/documents/general_admin_deprt/year-2021-22/12_Prashaskiy Tharav Mar - 2022.pdf"
+import pdf13 from "../../assets/documents/general_admin_deprt/year-2022-23/01_Prashaskiy Tharav April - 2022.pdf"
+import pdf14 from "../../assets/documents/general_admin_deprt/year-2022-23/02_Prashaskiy Tharav May - 2022.pdf"
+import pdf15 from "../../assets/documents/general_admin_deprt/year-2022-23/03_Prashaskiy Tharav June - 2022.pdf"
+import pdf16 from "../../assets/documents/general_admin_deprt/year-2022-23/04_Prashaskiy Tharav July - 2022.pdf"
+import pdf17 from "../../assets/documents/general_admin_deprt/year-2022-23/05_Prashaskiy Tharav Aug - 2022.pdf"
+import pdf18 from "../../assets/documents/general_admin_deprt/year-2022-23/06_Prashaskiy Tharav Sept - 2022.pdf"
+import pdf19 from "../../assets/documents/general_admin_deprt/year-2022-23/07_Prashaskiy Tharav Oct - 2022.pdf"
+import pdf20 from "../../assets/documents/general_admin_deprt/year-2022-23/08_Prashaskiy Tharav Nov - 2022.pdf"
+import pdf21 from "../../assets/documents/general_admin_deprt/year-2022-23/09_Prashaskiy Tharav Dec - 2022.pdf"
+import pdf22 from "../../assets/documents/general_admin_deprt/year-2022-23/10_Prashaskiy Tharav Jan - 2023.pdf"
+import pdf23 from "../../assets/documents/general_admin_deprt/year-2022-23/11_Prashaskiy Tharav Feb - 2023.pdf"
+import pdf24 from "../../assets/documents/general_admin_deprt/year-2022-23/12_Prashaskiy Tharav Mar - 2023.pdf"
+import pdf25 from "../../assets/documents/general_admin_deprt/year-2023-24/01_Prashaskiy Tharav April - 2023.pdf"
+import pdf26 from "../../assets/documents/general_admin_deprt/year-2023-24/02_Prashaskiy Tharav May - 2023.pdf"
+import pdf27 from "../../assets/documents/general_admin_deprt/year-2023-24/03_Prashaskiy Tharav June - 2023.pdf"
+import pdf28 from "../../assets/documents/general_admin_deprt/year-2023-24/04_Prashaskiy Tharav July - 2023.pdf"
+import pdf29 from "../../assets/documents/general_admin_deprt/year-2023-24/05_Prashaskiy Tharav Aug - 2023.pdf"
+import pdf30 from "../../assets/documents/general_admin_deprt/year-2023-24/06_Prashaskiy Tharav Sapt - 2023.pdf"
+import pdf31 from "../../assets/documents/general_admin_deprt/year-2023-24/07_Prashaskiy Tharav Oct - 2023.pdf"
+import pdf32 from "../../assets/documents/general_admin_deprt/year-2023-24/08_Prashaskiy Tharav Nov -2023.pdf"
+import pdf33 from "../../assets/documents/general_admin_deprt/year-2023-24/09_Prashaskiy Tharav Dec - 2023.pdf"
+import pdf34 from "../../assets/documents/general_admin_deprt/year-2023-24/10_Prashaskiy Tharav Jan - 2024.pdf"
+
 
 const DeptLayer2 = () => {
   const [activeIndex, setActiveIndex] = useState(null); // State to track the active accordion
@@ -14,7 +50,7 @@ const DeptLayer2 = () => {
         <div
           class="bg-layer"
           style={{
-            backgroundImage: "url(assets/images/banner/inner-banner.jpg)",
+            backgroundImage: `url(${innerBanner})`,
           }}
         ></div>
         <div class="line-box">
@@ -79,96 +115,105 @@ const DeptLayer2 = () => {
                               <ul>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2021-22/01_Prashaskiy Tharav April - 2021.pdf"
+                                    href={pdf1}
                                     target="_blank"
+                                    rel="noreferrer"
                                   >
                                     Prashaskiy Tharav April 2021
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2021-22/02_Prashaskiy Tharav May - 2021.pdf"
+                                    href={pdf2}
                                     target="_blank"
+                                    rel="noreferrer"
                                   >
                                     Prashaskiy Tharav May 2021
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2021-22/03_Prashaskiy Tharav June - 2021.pdf"
+                                    href={pdf3}
                                     target="_blank"
+                                    rel="noreferrer"
                                   >
                                     Prashaskiy Tharav June 2021
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2021-22/04_Prashaskiy Tharav July - 2021.pdf"
+                                    href={pdf4}
                                     target="_blank"
+                                    rel="noreferrer"
                                   >
                                     Prashaskiy Tharav July 2021
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2021-22/05_Prashaskiy Tharav Aug - 2021.pdf"
+                                    href={pdf5}
                                     target="_blank"
+                                    rel="noreferrer"
                                   >
                                     Prashaskiy Tharav August 2021
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2021-22/06_Prashaskiy Tharav Sept - 2021.pdf"
+                                    href={pdf6}
                                     target="_blank"
+                                    rel="noreferrer"
                                   >
                                     Prashaskiy Tharav September 2021
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2021-22/07_Prashaskiy Tharav Oct - 2021.pdf"
+                                    href={pdf7}
                                     target="_blank"
+                                    rel="noreferrer"
                                   >
                                     Prashaskiy Tharav October 2021
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2021-22/08_Prashaskiy Tharav Nov - 2021.pdf"
+                                    href={pdf8}
                                     target="_blank"
+                                    rel="noreferrer"
                                   >
                                     Prashaskiy Tharav November 2021
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2021-22/09_Prashaskiy Tharav Dec - 2021.pdf"
+                                    href={pdf9}
                                     target="_blank"
+                                    rel="noreferrer"
                                   >
                                     Prashaskiy Tharav December 2021
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2021-22/10_Prashaskiy Tharav Jan - 2022.pdf"
-                                    target="_blank"
+                                    href={pdf10}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav January 2022
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2021-22/11_Prashaskiy Tharav Feb - 2022.pdf"
-                                    target="_blank"
+                                    href={pdf11}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav February 2022
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2021-22/12_Prashaskiy Tharav Mar - 2022.pdf"
-                                    target="_blank"
+                                    href={pdf12}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav March 2022
                                   </a>
@@ -196,96 +241,96 @@ const DeptLayer2 = () => {
                               <ul>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2022-23/01_Prashaskiy Tharav April - 2022.pdf"
-                                    target="_blank"
+                                    href={pdf13}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav April 2022
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2022-23/02_Prashaskiy Tharav May - 2022.pdf"
-                                    target="_blank"
+                                    href={pdf14}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav May 2022
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2022-23/03_Prashaskiy Tharav June - 2022.pdf"
-                                    target="_blank"
+                                    href={pdf15}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav June 2022
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2022-23/04_Prashaskiy Tharav July - 2022.pdf"
-                                    target="_blank"
+                                    href={pdf16}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav July 2022
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2022-23/05_Prashaskiy Tharav Aug - 2022.pdf"
-                                    target="_blank"
+                                    href={pdf17}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav August 2022
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2022-23/06_Prashaskiy Tharav Sept - 2022.pdf"
-                                    target="_blank"
+                                    href={pdf18}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav September 2022
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2022-23/07_Prashaskiy Tharav Oct - 2022.pdf"
-                                    target="_blank"
+                                    href={pdf19}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav October 2022
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2022-23/08_Prashaskiy Tharav Nov - 2022.pdf"
-                                    target="_blank"
+                                    href={pdf20}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav November 2022
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2022-23/09_Prashaskiy Tharav Dec - 2022.pdf"
-                                    target="_blank"
+                                    href={pdf21}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav December 2022
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2022-23/10_Prashaskiy Tharav Jan - 2023.pdf"
-                                    target="_blank"
+                                    href={pdf22}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav January 2023
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2022-23/11_Prashaskiy Tharav Feb - 2023.pdf"
-                                    target="_blank"
+                                    href={pdf23}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav February 2023
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2022-23/12_Prashaskiy Tharav Mar - 2023.pdf"
-                                    target="_blank"
+                                    href={pdf24}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav March 2023
                                   </a>
@@ -305,18 +350,6 @@ const DeptLayer2 = () => {
                             <div class="col-md-6">
                               <h5 class="pb-3 pl-5">General Meeting</h5>
                               <ul>
-                                {/* <li><a href="#.">Annual General Meeting dated 31st May 2010</a></li>
-                                                    <li><a href="#.">Annual General Meeting dated 02nd June 2010</a></li>
-                                                    <li><a href="#.">Annual General Meeting dated 21st June 2010</a></li>
-                                                    <li><a href="#.">Annual General Meeting dated 04th July 2010</a></li>
-                                                    <li><a href="#.">Annual General Meeting dated 04th August 2010</a></li>
-                                                    <li><a href="#.">Annual General Meeting dated 12th August 2010</a></li>
-                                                    <li><a href="#.">Annual General Meeting dated 08th September 2010</a></li>
-                                                    <li><a href="#.">Annual General Meeting dated 09th October 2010</a></li>
-                                                    <li><a href="#.">Annual General Meeting dated 11th October 2010</a></li>
-                                                    <li><a href="#.">Annual General Meeting dated 09th February 2011</a></li>
-                                                    <li><a href="#.">Annual General Meeting dated 21st February 2011</a></li>
-                                                    <li><a href="#.">Annual General Meeting dated 12th March 2011</a></li> */}
                               </ul>
                             </div>
                             <div class="col-md-6">
@@ -326,80 +359,80 @@ const DeptLayer2 = () => {
                               <ul>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2023-24/01_Prashaskiy Tharav April - 2023.pdf"
-                                    target="_blank"
+                                    href={pdf25}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav April 2023
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2023-24/02_Prashaskiy Tharav May - 2023.pdf"
-                                    target="_blank"
+                                    href={pdf26}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav May 2023
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2023-24/03_Prashaskiy Tharav June - 2023.pdf"
-                                    target="_blank"
+                                    href={pdf27}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav June 2023
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2023-24/04_Prashaskiy Tharav July - 2023.pdf"
-                                    target="_blank"
+                                    href={pdf28}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav July 2023
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2023-24/05_Prashaskiy Tharav Aug - 2023.pdf"
-                                    target="_blank"
+                                    href={pdf29}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav August 2023
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2023-24/06_Prashaskiy Tharav Sapt - 2023.pdf"
-                                    target="_blank"
+                                    href={pdf30}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav September 2023
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2023-24/07_Prashaskiy Tharav Oct - 2023.pdf"
-                                    target="_blank"
+                                    href={pdf31}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav October 2023
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2023-24/08_Prashaskiy Tharav Nov -2023.pdf/"
-                                    target="_blank"
+                                    href={pdf32}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav November 2023
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2023-24/09_Prashaskiy Tharav Dec - 2023.pdf"
-                                    target="_blank"
+                                    href={pdf33}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav December 2023
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href="assets/documents/general_admin_deprt/year-2023-24/10_Prashaskiy Tharav Jan - 2024.pdf"
-                                    target="_blank"
+                                    href={pdf34}
+                                    target="_blank" rel="noreferrer"
                                   >
                                     Prashaskiy Tharav January 2024
                                   </a>
