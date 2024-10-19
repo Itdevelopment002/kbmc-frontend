@@ -33,9 +33,9 @@ const MuncipalProperties = () => {
       <section className="service-style-four">
         <div className="auto-container mt-4">
           <h5 className="pb-4">
-            The properties obtained under Accommodation reservation to Kulgaon
-            Badlapur Municipal Council, such as halls, shops, markets, are
-            rented through the tender procedure. We also have community halls in
+            The properties obtained under Accomodation reservation to kulgaon
+            badlapur municipal council like halls, shops, markets are rented
+            through the tender procedure. Also we have community halls in
             various areas for citizens.
           </h5>
 

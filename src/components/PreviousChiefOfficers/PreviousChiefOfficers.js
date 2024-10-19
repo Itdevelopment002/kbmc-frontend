@@ -1,4 +1,5 @@
 import React from 'react';
+import innerBanner from "../../assets/images/banner/inner-banner.jpg"
 
 const PreviousChiefOfficers = () => {
   const chiefOfficers = [
@@ -42,7 +43,7 @@ const PreviousChiefOfficers = () => {
   return (
     <div>
       <section className="page-title">
-        <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/banner/inner-banner.jpg)' }}></div>
+        <div className="bg-layer" style={{ backgroundImage: `url(${innerBanner})` }}></div>
         <div className="line-box">
           <div className="line-1"></div>
           <div className="line-2"></div>

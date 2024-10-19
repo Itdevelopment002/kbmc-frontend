@@ -1,8 +1,25 @@
 import React, { useEffect } from "react";
 import GLightbox from "glightbox";
 import "glightbox/dist/css/glightbox.css"; // Import GLightbox CSS
-import './lightbox-custom.css'
-import img1 from "../../assets/images/banner/inner-banner.jpg";
+import "./lightbox-custom.css";
+import innerBanner from "../../assets/images/banner/inner-banner.jpg";
+import img1 from "../../assets/images/schools/img1.jpg";
+import img2 from "../../assets/images/schools/img2.jpg";
+import img3 from "../../assets/images/schools/img3.jpg";
+import img4 from "../../assets/images/schools/img4.jpg";
+import img5 from "../../assets/images/schools/img5.jpg";
+import img6 from "../../assets/images/schools/img6.jpg";
+import img7 from "../../assets/images/schools/img7.jpg";
+import img8 from "../../assets/images/schools/img8.jpg";
+import img9 from "../../assets/images/schools/img9.jpg";
+import img10 from "../../assets/images/schools/img10.jpg";
+import img11 from "../../assets/images/schools/img11.jpg";
+import img12 from "../../assets/images/schools/img12.jpg";
+import img13 from "../../assets/images/schools/img13.jpg";
+import img14 from "../../assets/images/schools/img14.jpg";
+import img15 from "../../assets/images/schools/img15.jpg";
+import img16 from "../../assets/images/schools/img16.jpg";
+import img17 from "../../assets/images/schools/img17.jpg";
 
 const schoolsData = [
   { id: 1, name: "KBMC School No. 1", address: "Kulgaon", medium: "Marathi" },
@@ -64,23 +81,23 @@ const schoolsData = [
 ];
 
 const schoolImages = [
-  "img1.jpg",
-  "img2.jpg",
-  "img3.jpg",
-  "img4.jpg",
-  "img5.jpg",
-  "img6.jpg",
-  "img7.jpg",
-  "img8.jpg",
-  "img9.jpg",
-  "img10.jpg",
-  "img11.jpg",
-  "img12.jpg",
-  "img13.jpg",
-  "img14.jpg",
-  "img15.jpg",
-  "img16.jpg",
-  "img17.jpg",
+  img1,
+  img2,
+  img3,
+  img4,
+  img5,
+  img6,
+  img7,
+  img8,
+  img9,
+  img10,
+  img11,
+  img12,
+  img13,
+  img14,
+  img15,
+  img16,
+  img17,
 ];
 
 const Schools = () => {
@@ -95,7 +112,7 @@ const Schools = () => {
       <section className="page-title">
         <div
           className="bg-layer"
-          style={{ backgroundImage: `url(${img1})` }}
+          style={{ backgroundImage: `url(${innerBanner})` }}
         ></div>
         <div className="auto-container">
           <div className="content-box">
@@ -114,7 +131,7 @@ const Schools = () => {
       <br />
 
       <section className="service-style-four mt-5 pb-1">
-        <div className="container">
+        <div className="auto-container">
           <div className="table-responsive">
             <table className="table table-bordered">
               <thead className="text-center">
@@ -187,12 +204,9 @@ const Schools = () => {
                         <div className="row">
                           {schoolImages.map((image, index) => (
                             <div className="col-sm-2" key={index}>
-                              <a
-                                href={`assets/images/schools/${image}`}
-                                className="glightbox"
-                              >
+                              <a href={image} className="glightbox">
                                 <img
-                                  src={`assets/images/schools/${image}`}
+                                  src={image}
                                   alt={`img${index + 1}`}
                                   className="img-fluid"
                                 />

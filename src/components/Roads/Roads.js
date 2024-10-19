@@ -1,4 +1,5 @@
 import React from "react";
+import innerBanner from '../../assets/images/banner/inner-banner.jpg';
 
 const Roads = () => {
   return (
@@ -7,7 +8,7 @@ const Roads = () => {
         <div
           className="bg-layer"
           style={{
-            backgroundImage: "url(assets/images/banner/inner-banner.jpg)",
+            backgroundImage: `url(${innerBanner})`,
           }}
         ></div>
         <div className="line-box">
