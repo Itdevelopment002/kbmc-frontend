@@ -102,6 +102,7 @@
 // export default WhatsAppChat;
 
 import React, { useState } from "react";
+import img1 from "../../assets/images/KBMC-logo.jpg"
 
 const WhatsAppChat = () => {
   const [chatInput, setChatInput] = useState(""); // To handle the message input
@@ -155,7 +156,7 @@ const WhatsAppChat = () => {
           {isHomeVisible ? (
             <div className="head-home">
               <div className="info-avatar">
-                <img src="assets/images/KBMC-logo.jpg" alt="" />
+                <img src={img1} alt="" />
               </div>
               <p>
                 <span className="whatsapp-name">KBMC</span>

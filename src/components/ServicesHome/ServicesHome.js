@@ -98,7 +98,7 @@ const ServicesHome = () => {
                                             </Link>
                                         </div>
                                         <div className="col-lg-3 col-md-6 col-sm-12 single-column">
-                                            <Link to="/electedwing">
+                                            <Link to="/elected-member">
                                                 <div className="single-links theme-btn btn-one">
                                                     <div className="figure">
                                                         <img className="Sirv image-main sirv-image-loaded" src={s13} data-src="assets/images/icons/Elected Wings.png" referrerpolicy="no-referrer-when-downgrade" id="responsive-image-3973420" loading="lazy" alt="" />

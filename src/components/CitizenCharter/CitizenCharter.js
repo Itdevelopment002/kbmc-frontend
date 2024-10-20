@@ -1,5 +1,16 @@
 import React from 'react'
 import innerBanner from '../../assets/images/banner/inner-banner.jpg'; // Background image
+import pdficon from "../../assets/images/icons/PDF-Icons.png"
+import pdf1 from "../../assets/documents/department/tax-dept.pdf";
+import pdf2 from "../../assets/documents/department/town-plal-dept.pdf";
+import pdf3 from "../../assets/documents/department/electrical-dept.pdf";
+import pdf4 from "../../assets/documents/department/pwd-dept.pdf";
+import pdf5 from "../../assets/documents/department/health-dept.pdf";
+import pdf6 from "../../assets/documents/department/education-dept.pdf";
+import pdf7 from "../../assets/documents/department/vehicle-dept.pdf";
+import pdf8 from "../../assets/documents/department/nulm-dept.pdf";
+import pdf9 from "../../assets/documents/department/hospital-dept.pdf";
+import pdf10 from "../../assets/documents/department/establishment-dept.pdf";
 
 const CitizenCharter = () => {
   return (
@@ -31,84 +42,84 @@ const CitizenCharter = () => {
                                 
                                 <div className="content-two">                            
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>General Admin Department</h6>
                                         <div className="download-btn">
                                             <a href="#." className="theme-btn btn-one">View</a>
                                         </div>
                                     </div> 
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>Audit Department</h6>
                                         <div className="download-btn">
                                             <a href="#." className="theme-btn btn-one">View</a>
                                         </div>
                                     </div>
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>Tax Department</h6>
                                         <div className="download-btn">
-                                            <a href="assets/documents/department/tax-dept.pdf" target="_blank" className="theme-btn btn-one">View</a>
+                                            <a href={pdf1} rel="noreferrer" target="_blank" className="theme-btn btn-one">View</a>
                                         </div>
                                     </div>
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>Account Department</h6>
                                         <div className="download-btn">
                                             <a href="#." className="theme-btn btn-one">View</a>
                                         </div>
                                     </div> 
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>Town Planning</h6>
                                         <div className="download-btn">
-                                            <a href="assets/documents/department/town-plal-dept.pdf" target="_blank" className="theme-btn btn-one">View</a>
+                                            <a href={pdf2} rel="noreferrer" target="_blank" className="theme-btn btn-one">View</a>
                                         </div>
                                     </div>
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>Electrical Department</h6>
                                         <div className="download-btn">
-                                            <a href="assets/documents/department/electrical-dept.pdf" target="_blank" className="theme-btn btn-one">View</a>
+                                            <a href={pdf3} rel="noreferrer" target="_blank" className="theme-btn btn-one">View</a>
                                         </div>
                                     </div>
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>Public Work Department</h6>
                                         <div className="download-btn">
-                                            <a href="assets/documents/department/pwd-dept.pdf" target="_blank" className="theme-btn btn-one">View</a>
+                                            <a href={pdf4} rel="noreferrer" target="_blank" className="theme-btn btn-one">View</a>
                                         </div>
                                     </div>
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>Milkat (Income)</h6>
                                         <div className="download-btn">
                                             <a href="#." className="theme-btn btn-one">View</a>
                                         </div>
                                     </div>
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>E-Governance Department</h6>
                                         <div className="download-btn">
                                             <a href="#." className="theme-btn btn-one">View</a>
                                         </div>
                                     </div>
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>Health Department</h6>
                                         <div className="download-btn">
-                                            <a href="assets/documents/department/health-dept.pdf" target="_blank" className="theme-btn btn-one">View</a>
+                                            <a href={pdf5} rel="noreferrer" target="_blank" className="theme-btn btn-one">View</a>
                                         </div>
                                     </div>
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>WCD (Women and Child Development)</h6>
                                         <div className="download-btn">
                                             <a href="#." className="theme-btn btn-one">View</a>
                                         </div>
                                     </div>
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>Advertisement Department</h6>
                                         <div className="download-btn">
                                             <a href="#." className="theme-btn btn-one">View</a>
@@ -121,94 +132,94 @@ const CitizenCharter = () => {
                             <div className="department-details-content citizen-chart-pdf">    
                                 <div className="content-two">                            
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>Education Department</h6>
                                         <div className="download-btn">
-                                            <a href="assets/documents/department/education-dept.pdf" target="_blank" className="theme-btn btn-one">View</a>
+                                            <a href={pdf6} rel="noreferrer" target="_blank" className="theme-btn btn-one">View</a>
                                         </div>
                                     </div> 
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>Security Department</h6>
                                         <div className="download-btn">
                                             <a href="#." className="theme-btn btn-one">View</a>
                                         </div>
                                     </div> 
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>Vehicle Department</h6>
                                         <div className="download-btn">
-                                            <a href="assets/documents/department/vehicle-dept.pdf" target="_blank" className="theme-btn btn-one">View</a>
+                                            <a href={pdf7} rel="noreferrer" target="_blank" className="theme-btn btn-one">View</a>
                                         </div>
                                     </div> 
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>NULM Department</h6>
                                         <div className="download-btn">
-                                            <a href="assets/documents/department/nulm-dept.pdf" target="_blank" className="theme-btn btn-one">View</a>
+                                            <a href={pdf8} rel="noreferrer" target="_blank" className="theme-btn btn-one">View</a>
                                         </div>
                                     </div>
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>Hospital Department</h6>
                                         <div className="download-btn">
-                                            <a href="assets/documents/department/hospital-dept.pdf" target="_blank" className="theme-btn btn-one">View</a>
+                                            <a href={pdf9} rel="noreferrer" target="_blank" className="theme-btn btn-one">View</a>
                                         </div>
                                     </div>
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>Fire Department</h6>
                                         <div className="download-btn">
                                             <a href="#." className="theme-btn btn-one">View</a>
                                         </div>
                                     </div> 
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>Legal Department</h6>
                                         <div className="download-btn">
                                             <a href="#." className="theme-btn btn-one">View</a>
                                         </div>
                                     </div>  
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>Disability Department</h6>
                                         <div className="download-btn">
                                             <a href="#." className="theme-btn btn-one">View</a>
                                         </div>
                                     </div> 
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>Store &amp; Records Department</h6>
                                         <div className="download-btn">
                                             <a href="#." className="theme-btn btn-one">View</a>
                                         </div>
                                     </div>  
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>Marriage Registration</h6>
                                         <div className="download-btn">
                                             <a href="#." className="theme-btn btn-one">View</a>
                                         </div>
                                     </div> 
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>Birth &amp; Death Department</h6>
                                         <div className="download-btn">
                                             <a href="#." className="theme-btn btn-one">View</a>
                                         </div>
                                     </div>
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>Water Department</h6>
                                         <div className="download-btn">
                                             <a href="#." className="theme-btn btn-one">View</a>
                                         </div>
                                     </div> 
                                     <div className="download-box">
-                                        <div className="icon-box"><img src="assets/images/icons/PDF-Icons.png" alt=""/></div>
+                                        <div className="icon-box"><img src={pdficon} alt=""/></div>
                                         <h6>Establishment Department</h6>
                                         <div className="download-btn">
-                                            <a href="assets/documents/department/establishment-dept.pdf" target="_blank" className="theme-btn btn-one">View</a>
+                                            <a href={pdf10} rel="noreferrer" target="_blank" className="theme-btn btn-one">View</a>
                                         </div>
                                     </div>
                                 </div>                 

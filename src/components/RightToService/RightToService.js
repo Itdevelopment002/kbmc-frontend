@@ -1,6 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import innerBanner from '../../assets/images/banner/inner-banner.jpg';
+import pdficon from "../../assets/images/icons/PDF-Icons.png"
+import pdf1 from "../../assets/documents/rts/rts_act_eng.pdf";
+import pdf2 from "../../assets/documents/rts/rts_act_mar.pdf";
+import pdf3 from "../../assets/documents/rts/rts_gr.pdf";
+import pdf4 from "../../assets/documents/rts/designated_officer.pdf";
+import pdf5 from "../../assets/documents/rts/acknowledgement.pdf";
+import pdf6 from "../../assets/documents/rts/first_appeal.pdf";
+import pdf7 from "../../assets/documents/rts/seond_appeal.pdf";
+import pdf8 from "../../assets/documents/rts/state_commission.pdf";
+import pdf9 from "../../assets/documents/rts/register_of_cases.pdf";
+import pdf10 from "../../assets/documents/rts/office_inspection.pdf";
 
 const RightToService = () => {
     return (
@@ -48,7 +59,7 @@ const RightToService = () => {
                                     <td className="text-center">The Maharashtra Right to Public Service Act, 2015 (English)</td>
                                     <td className="text-center">
                                         <div className="download-box">
-                                            <div className="icon-box"><Link to="../../assets/documents/rts/rts_act_eng.pdf" target="_blank"><img width="25px" src="assets/images/icons/PDF-Icons.png" alt="pdf_icon" /> </Link></div>
+                                            <div className="icon-box"><Link to={pdf1} target="_blank"><img width="25px" src={pdficon} alt="pdf_icon" /> </Link></div>
                                         </div>
                                     </td>
                                 </tr>
@@ -57,7 +68,7 @@ const RightToService = () => {
                                     <td className="text-center">The Maharashtra Right to Public Service Act, 2015 (Marathi)</td>
                                     <td className="text-center">
                                         <div className="download-box">
-                                            <div className="icon-box"><Link to="../../assets/documents/rts/rts_act_mar.pdf" target="_blank"><img width="25px" src="assets/images/icons/PDF-Icons.png" alt="pdf_icon" /> </Link></div>
+                                            <div className="icon-box"><Link to={pdf2} target="_blank"><img width="25px" src={pdficon} alt="pdf_icon" /> </Link></div>
                                         </div>
                                     </td>
                                 </tr>
@@ -66,7 +77,7 @@ const RightToService = () => {
                                     <td className="text-center">RTS GR</td>
                                     <td className="text-center">
                                         <div className="download-box">
-                                            <div className="icon-box"><Link to="../../assets/documents/rts/rts_gr.pdf" target="_blank"><img width="25px" src="assets/images/icons/PDF-Icons.png" alt="pdf_icon" /> </Link></div>
+                                            <div className="icon-box"><Link to={pdf3} target="_blank"><img width="25px" src={pdficon} alt="pdf_icon" /> </Link></div>
                                         </div>
                                     </td>
                                 </tr>
@@ -75,7 +86,7 @@ const RightToService = () => {
                                     <td className="text-center">Form of application to Designated officer</td>
                                     <td className="text-center">
                                         <div className="download-box">
-                                            <div className="icon-box"><Link to="../../assets/documents/rts/designated_officer.pdf" target="_blank"><img width="25px" src="assets/images/icons/PDF-Icons.png" alt="pdf_icon" /> </Link></div>
+                                            <div className="icon-box"><Link to={pdf4} target="_blank"><img width="25px" src={pdficon} alt="pdf_icon" /> </Link></div>
                                         </div>
                                     </td>
                                 </tr>
@@ -84,7 +95,7 @@ const RightToService = () => {
                                     <td className="text-center">Acknowledgement</td>
                                     <td className="text-center">
                                         <div className="download-box">
-                                            <div className="icon-box"><Link to="../../assets/documents/rts/acknowledgement.pdf" target="_blank"><img width="25px" src="assets/images/icons/PDF-Icons.png" alt="pdf_icon" /> </Link></div>
+                                            <div className="icon-box"><Link to={pdf5} target="_blank"><img width="25px" src={pdficon} alt="pdf_icon" /> </Link></div>
                                         </div>
                                     </td>
                                 </tr>
@@ -93,7 +104,7 @@ const RightToService = () => {
                                     <td className="text-center">Form of First Appeal to First Appellate Authority</td>
                                     <td className="text-center">
                                         <div className="download-box">
-                                            <div className="icon-box"><Link to="../../assets/documents/rts/first_appeal.pdf" target="_blank"><img width="25px" src="assets/images/icons/PDF-Icons.png" alt="pdf_icon" /> </Link></div>
+                                            <div className="icon-box"><Link to={pdf6} target="_blank"><img width="25px" src={pdficon} alt="pdf_icon" /> </Link></div>
                                         </div>
                                     </td>
                                 </tr>
@@ -102,7 +113,7 @@ const RightToService = () => {
                                     <td className="text-center">Form of Second Appeal to Second Appellate Authority</td>
                                     <td className="text-center">
                                         <div className="download-box">
-                                            <div className="icon-box"><Link to="../../assets/documents/rts/seond_appeal.pdf" target="_blank"><img width="25px" src="assets/images/icons/PDF-Icons.png" alt="pdf_icon" /> </Link></div>
+                                            <div className="icon-box"><Link to={pdf7} target="_blank"><img width="25px" src={pdficon} alt="pdf_icon" /> </Link></div>
                                         </div>
                                     </td>
                                 </tr>
@@ -111,7 +122,7 @@ const RightToService = () => {
                                     <td className="text-center">Form of Appeal to Maharashtra State Commission for Right to Public Service</td>
                                     <td className="text-center">
                                         <div className="download-box">
-                                            <div className="icon-box"><Link to="../../assets/documents/rts/state_commission.pdf" target="_blank"><img width="25px" src="assets/images/icons/PDF-Icons.png" alt="pdf_icon" /> </Link></div>
+                                            <div className="icon-box"><Link to={pdf8} target="_blank"><img width="25px" src={pdficon} alt="pdf_icon" /> </Link></div>
                                         </div>
                                     </td>
                                 </tr>
@@ -120,7 +131,7 @@ const RightToService = () => {
                                     <td className="text-center">Register of cases</td>
                                     <td className="text-center">
                                         <div className="download-box">
-                                            <div className="icon-box"><Link to="../../assets/documents/rts/register_of_cases.pdf" target="_blank"><img width="25px" src="assets/images/icons/PDF-Icons.png" alt="pdf_icon" /> </Link></div>
+                                            <div className="icon-box"><Link to={pdf9} target="_blank"><img width="25px" src={pdficon} alt="pdf_icon" /> </Link></div>
                                         </div>
                                     </td>
                                 </tr>
@@ -129,7 +140,7 @@ const RightToService = () => {
                                     <td className="text-center">Office Inspection format</td>
                                     <td className="text-center">
                                         <div className="download-box">
-                                            <div className="icon-box"><Link to="../../assets/documents/rts/office_inspection.pdf" target="_blank"><img width="25px" src="assets/images/icons/PDF-Icons.png" alt="pdf_icon" /> </Link></div>
+                                            <div className="icon-box"><Link to={pdf10} target="_blank"><img width="25px" src={pdficon} alt="pdf_icon" /> </Link></div>
                                         </div>
                                     </td>
                                 </tr>

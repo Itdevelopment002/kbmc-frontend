@@ -1,8 +1,37 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
 import GLightbox from "glightbox";
 import "glightbox/dist/css/glightbox.min.css";
 import innerBanner from "../../assets/images/banner/inner-banner.jpg";
+import img1 from "../../assets/images/town-planning/BADLAPUR-D-all-dp.jpg";
+import img2 from "../../assets/images/town-planning/01-Mankivali.jpg";
+import img3 from "../../assets/images/town-planning/02-Badlapur-1.jpg";
+import img4 from "../../assets/images/town-planning/03-Katrap.jpg";
+import img5 from "../../assets/images/town-planning/04-Joveli.jpg";
+import img6 from "../../assets/images/town-planning/05-Yernzad.jpg"
+import img7 from "../../assets/images/town-planning/06-Badlapur-2.jpg"
+import img8 from "../../assets/images/town-planning/07-Valivli.jpg"
+import img9 from "../../assets/images/town-planning/08-Belavali.jpg"
+import img10 from "../../assets/images/town-planning/09-Manjarli.jpg"
+import img11 from "../../assets/images/town-planning/10-Sonivali.jpg";
+import img12 from "../../assets/images/town-planning/11-Kharvai.jpg";
+import img13 from "../../assets/images/town-planning/12-Shirgaon-2.jpg";
+import img14 from "../../assets/images/town-planning/13-Shirgaon-02.jpg";
+import img15 from "../../assets/images/town-planning/14-Kulgaon.jpg";
+import pdf1 from "../../assets/images/town-planning/pdf/BADLAPUR-D-all-dp.pdf";
+import pdf2 from "../../assets/images/town-planning/pdf/01-Mankivali.pdf";
+import pdf3 from "../../assets/images/town-planning/pdf/02-Badlapur-1.pdf";
+import pdf4 from "../../assets/images/town-planning/pdf/03-Katrap.pdf";
+import pdf5 from "../../assets/images/town-planning/pdf/04-Joveli.pdf";
+import pdf6 from "../../assets/images/town-planning/pdf/05-Yernzad.pdf"
+import pdf7 from "../../assets/images/town-planning/pdf/06-Badlapur-2.pdf"
+import pdf8 from "../../assets/images/town-planning/pdf/07-Valivli.pdf"
+import pdf9 from "../../assets/images/town-planning/pdf/08-Belavali.pdf"
+import pdf10 from "../../assets/images/town-planning/pdf/09-Manjarli.pdf"
+import pdf11 from "../../assets/images/town-planning/pdf/10-Sonivali.pdf";
+import pdf12 from "../../assets/images/town-planning/pdf/11-Kharvai.pdf";
+import pdf13 from "../../assets/images/town-planning/pdf/12-Shirgaon-2.pdf";
+import pdf14 from "../../assets/images/town-planning/pdf/13-Shirgaon-02.pdf";
+import pdf15 from "../../assets/images/town-planning/pdf/14-Kulgaon.pdf";
 
 const TownPlanning = () => {
   useEffect(() => {
@@ -76,13 +105,13 @@ const TownPlanning = () => {
                   <div class="row">
                     <div class="col-lg-3 town_plan">
                       <a
-                        href="assets/images/town-planning/BADLAPUR-D-all-dp.jpg"
+                        href={img1}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
                         class=""
                       >
                         <img
-                          src="assets/images/town-planning/BADLAPUR-D-all-dp.jpg"
+                          src={img1}
                           alt=""
                           class="img-fluid"
                         />
@@ -90,9 +119,10 @@ const TownPlanning = () => {
                       </a>
                       <div class="pdf-dwnl">
                         <a
-                          href="../../assets/images/town-planning/pdf/BADLAPUR-D-all-dp.pdf"
+                          href={pdf1}
                           download
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i class="fa fa-download"></i>
                         </a>
@@ -100,13 +130,13 @@ const TownPlanning = () => {
                     </div>
                     <div class="col-lg-3 town_plan">
                       <a
-                        href="assets/images/town-planning/01-Mankivali.jpg"
+                        href={img2}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
                         class=""
                       >
                         <img
-                          src="assets/images/town-planning/01-Mankivali.jpg"
+                          src={img2}
                           alt=""
                           class="img-fluid"
                         />
@@ -114,9 +144,10 @@ const TownPlanning = () => {
                       </a>
                       <div class="pdf-dwnl">
                         <a
-                          href="assets/images/town-planning/pdf/01-Mankivali.pdf"
+                          href={pdf2}
                           download
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i class="fa fa-download"></i>
                         </a>
@@ -124,13 +155,13 @@ const TownPlanning = () => {
                     </div>
                     <div class="col-lg-3 town_plan">
                       <a
-                        href="assets/images/town-planning/02-Badlapur-1.jpg"
+                        href={img3}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
                         class="col-sm-3"
                       >
                         <img
-                          src="assets/images/town-planning/02-Badlapur-1.jpg"
+                          src={img3}
                           alt=""
                           class="img-fluid"
                         />
@@ -138,9 +169,10 @@ const TownPlanning = () => {
                       </a>
                       <div class="pdf-dwnl">
                         <a
-                          href="assets/images/town-planning/pdf/02-Badlapur-1.pdf"
+                          href={pdf3}
                           download
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i class="fa fa-download"></i>
                         </a>
@@ -148,13 +180,13 @@ const TownPlanning = () => {
                     </div>
                     <div class="col-lg-3 town_plan">
                       <a
-                        href="assets/images/town-planning/03-Katrap.jpg"
+                        href={img4}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
                         class="col-sm-3"
                       >
                         <img
-                          src="assets/images/town-planning/03-Katrap.jpg"
+                          src={img4}
                           alt=""
                           class="img-fluid"
                         />
@@ -162,9 +194,10 @@ const TownPlanning = () => {
                       </a>
                       <div class="pdf-dwnl">
                         <a
-                          href="assets/images/town-planning/pdf/03-Katrap.pdf"
+                          href={pdf4}
                           download
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i class="fa fa-download"></i>
                         </a>
@@ -174,13 +207,13 @@ const TownPlanning = () => {
                   <div class="row">
                     <div class="col-lg-3 town_plan">
                       <a
-                        href="assets/images/town-planning/04-Joveli.jpg"
+                        href={img5}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
                         class="col-sm-3"
                       >
                         <img
-                          src="assets/images/town-planning/04-Joveli.jpg"
+                          src={img5}
                           alt=""
                           class="img-fluid"
                         />
@@ -188,9 +221,10 @@ const TownPlanning = () => {
                       </a>
                       <div class="pdf-dwnl">
                         <a
-                          href="assets/images/town-planning/pdf/04-Joveli.pdf"
+                          href={pdf5}
                           download
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i class="fa fa-download"></i>
                         </a>
@@ -198,13 +232,13 @@ const TownPlanning = () => {
                     </div>
                     <div class="col-lg-3 town_plan">
                       <a
-                        href="assets/images/town-planning/05-Yernzad.jpg"
+                        href={img6}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
                         class="col-sm-3"
                       >
                         <img
-                          src="assets/images/town-planning/05-Yernzad.jpg"
+                          src={img6}
                           alt=""
                           class="img-fluid"
                         />
@@ -212,9 +246,10 @@ const TownPlanning = () => {
                       </a>
                       <div class="pdf-dwnl">
                         <a
-                          href="assets/images/town-planning/pdf/05-Yernzad.pdf"
+                          href={pdf6}
                           download
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i class="fa fa-download"></i>
                         </a>
@@ -222,13 +257,13 @@ const TownPlanning = () => {
                     </div>
                     <div class="col-lg-3 town_plan">
                       <a
-                        href="assets/images/town-planning/06-Badlapur-2.jpg"
+                        href={img7}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
                         class="col-sm-3"
                       >
                         <img
-                          src="assets/images/town-planning/06-Badlapur-2.jpg"
+                          src={img7}
                           alt=""
                           class="img-fluid"
                         />
@@ -236,9 +271,10 @@ const TownPlanning = () => {
                       </a>
                       <div class="pdf-dwnl">
                         <a
-                          href="assets/images/town-planning/pdf/06-Badlapur-2.pdf"
+                          href={pdf7}
                           download
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i class="fa fa-download"></i>
                         </a>
@@ -246,13 +282,13 @@ const TownPlanning = () => {
                     </div>
                     <div class="col-lg-3 town_plan">
                       <a
-                        href="assets/images/town-planning/07-Valivli.jpg"
+                        href={img8}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
                         class="col-sm-3"
                       >
                         <img
-                          src="assets/images/town-planning/07-Valivli.jpg"
+                          src={img8}
                           alt=""
                           class="img-fluid"
                         />
@@ -260,9 +296,10 @@ const TownPlanning = () => {
                       </a>
                       <div class="pdf-dwnl">
                         <a
-                          href="assets/images/town-planning/pdf/07-Valivli.pdf"
+                          href={pdf8}
                           download
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i class="fa fa-download"></i>
                         </a>
@@ -272,13 +309,13 @@ const TownPlanning = () => {
                   <div class="row">
                     <div class="col-lg-3 town_plan">
                       <a
-                        href="assets/images/town-planning/08-Belavali.jpg"
+                        href={img9}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
                         class="col-sm-3"
                       >
                         <img
-                          src="assets/images/town-planning/08-Belavali.jpg"
+                          src={img9}
                           alt=""
                           class="img-fluid"
                         />
@@ -286,9 +323,10 @@ const TownPlanning = () => {
                       </a>
                       <div class="pdf-dwnl">
                         <a
-                          href="assets/images/town-planning/pdf/08-Belavali.pdf"
+                          href={pdf9}
                           download
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i class="fa fa-download"></i>
                         </a>
@@ -296,13 +334,13 @@ const TownPlanning = () => {
                     </div>
                     <div class="col-lg-3 town_plan">
                       <a
-                        href="assets/images/town-planning/09-Manjarli.jpg"
+                        href={img10}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
                         class="col-sm-3"
                       >
                         <img
-                          src="assets/images/town-planning/09-Manjarli.jpg"
+                          src={img10}
                           alt=""
                           class="img-fluid"
                         />
@@ -310,9 +348,10 @@ const TownPlanning = () => {
                       </a>
                       <div class="pdf-dwnl">
                         <a
-                          href="assets/images/town-planning/pdf/09-Manjarli.pdf"
+                          href={pdf10}
                           download
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i class="fa fa-download"></i>
                         </a>
@@ -320,13 +359,13 @@ const TownPlanning = () => {
                     </div>
                     <div class="col-lg-3 town_plan">
                       <a
-                        href="assets/images/town-planning/10-Sonivali.jpg"
+                        href={img11}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
                         class="col-sm-3"
                       >
                         <img
-                          src="assets/images/town-planning/10-Sonivali.jpg"
+                          src={img11}
                           alt=""
                           class="img-fluid"
                         />
@@ -334,9 +373,10 @@ const TownPlanning = () => {
                       </a>
                       <div class="pdf-dwnl">
                         <a
-                          href="assets/images/town-planning/pdf/10-Sonivali.pdf"
+                          href={pdf11}
                           download
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i class="fa fa-download"></i>
                         </a>
@@ -344,13 +384,13 @@ const TownPlanning = () => {
                     </div>
                     <div class="col-lg-3 town_plan">
                       <a
-                        href="assets/images/town-planning/11-Kharvai.jpg"
+                        href={img12}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
                         class="col-sm-3"
                       >
                         <img
-                          src="assets/images/town-planning/11-Kharvai.jpg"
+                          src={img12}
                           alt=""
                           class="img-fluid"
                         />
@@ -358,9 +398,10 @@ const TownPlanning = () => {
                       </a>
                       <div class="pdf-dwnl">
                         <a
-                          href="assets/images/town-planning/pdf/11-Kharvai.pdf"
+                          href={pdf12}
                           download
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i class="fa fa-download"></i>
                         </a>
@@ -370,38 +411,13 @@ const TownPlanning = () => {
                   <div class="row">
                     <div class="col-lg-3 town_plan">
                       <a
-                        href="assets/images/town-planning/12-Shirgaon-2.jpg"
+                        href={img13}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
                         class="col-sm-3"
                       >
                         <img
-                          src="assets/images/town-planning/12-Shirgaon-2.jpg"
-                          alt=""
-                          class="img-fluid"
-                        />
-                        <h6 class="text-center">Shirgaon</h6>
-                      </a>{" "}
-                      alt=""
-                      <div class="pdf-dwnl">
-                        <a
-                          href="assets/images/town-planning/pdf/12-Shirgaon-2.pdf"
-                          download
-                          target="_blank"
-                        >
-                          <i class="fa fa-download"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-lg-3 town_plan">
-                      <a
-                        href="assets/images/town-planning/13-Shirgaon-02.jpg"
-                        data-toggle="lightbox"
-                        data-gallery="example-gallery"
-                        class="col-sm-3"
-                      >
-                        <img
-                          src="assets/images/town-planning/13-Shirgaon-02.jpg"
+                          src={img13}
                           alt=""
                           class="img-fluid"
                         />
@@ -409,9 +425,10 @@ const TownPlanning = () => {
                       </a>
                       <div class="pdf-dwnl">
                         <a
-                          href="assets/images/town-planning/pdf/13-Shirgaon-02.pdf"
+                          href={pdf13}
                           download
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i class="fa fa-download"></i>
                         </a>
@@ -419,13 +436,38 @@ const TownPlanning = () => {
                     </div>
                     <div class="col-lg-3 town_plan">
                       <a
-                        href="assets/images/town-planning/14-Kulgaon.jpg"
+                        href={img14}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
                         class="col-sm-3"
                       >
                         <img
-                          src="assets/images/town-planning/14-Kulgaon.jpg"
+                          src={img14}
+                          alt=""
+                          class="img-fluid"
+                        />
+                        <h6 class="text-center">Shirgaon</h6>
+                      </a>
+                      <div class="pdf-dwnl">
+                        <a
+                          href={pdf14}
+                          download
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <i class="fa fa-download"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 town_plan">
+                      <a
+                        href={img15}
+                        data-toggle="lightbox"
+                        data-gallery="example-gallery"
+                        class="col-sm-3"
+                      >
+                        <img
+                          src={img15}
                           alt=""
                           class="img-fluid"
                         />
@@ -433,9 +475,10 @@ const TownPlanning = () => {
                       </a>
                       <div class="pdf-dwnl">
                         <a
-                          href="assets/images/town-planning/pdf/14-Kulgaon.pdf"
+                          href={pdf15}
                           download
-                          target="_blank"
+                          target="_blank" 
+                          rel="noreferrer"
                         >
                           <i class="fa fa-download"></i>
                         </a>
