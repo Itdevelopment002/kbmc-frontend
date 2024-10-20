@@ -2,6 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import innerBanner from '../../assets/images/banner/inner-banner.jpg';
 import pdficon from "../../assets/images/icons/PDF-Icons.png";
+import pdf1 from "../../assets/documents/downloads/birth-cert.pdf";
+import pdf2 from "../../assets/documents/downloads/death-cert.pdf";
+import pdf3 from "../../assets/documents/downloads/property-transfer1.pdf";
+import pdf4 from "../../assets/documents/downloads/property-transfer2.pdf";
+import pdf5 from "../../assets/documents/downloads/new-assesment-property.pdf";
 
 const Downloads = () => {
     return (
@@ -35,35 +40,35 @@ const Downloads = () => {
                                                 <div className="icon-box"><img src={pdficon} alt=""/></div>
                                                 <h6>Application form for Birth Certificate</h6>
                                                 <div className="download-btn">
-                                                    <Link to="../../assets/documents/downloads/birth-cert.pdf" target="_blank" className="theme-btn btn-one">View</Link>
+                                                    <Link to={pdf1} target="_blank" className="theme-btn btn-one">View</Link>
                                                 </div>
                                             </div>
                                             <div className="download-box">
                                                 <div className="icon-box"><img src={pdficon} alt=""/></div>
                                                 <h6>Application form for Death Certificate</h6>
                                                 <div className="download-btn">
-                                                    <Link to="../../assets/documents/downloads/death-cert.pdf" target="_blank" className="theme-btn btn-one">View</Link>
+                                                    <Link to={pdf2} target="_blank" className="theme-btn btn-one">View</Link>
                                                 </div>
                                             </div>
                                             <div className="download-box">
                                                 <div className="icon-box"><img src={pdficon} alt=""/></div>
                                                 <h6>Application form for Property Transfer 1</h6>
                                                 <div className="download-btn">
-                                                    <Link to="../../assets/documents/downloads/property-transfer1.pdf" target="_blank" className="theme-btn btn-one">View</Link>
+                                                    <Link to={pdf3} target="_blank" className="theme-btn btn-one">View</Link>
                                                 </div>
                                             </div>
                                             <div className="download-box">
                                                 <div className="icon-box"><img src={pdficon} alt=""/></div>
                                                 <h6>Application form for Property Transfer 2</h6>
                                                 <div className="download-btn">
-                                                    <Link to="../../assets/documents/downloads/property-transfer2.pdf" target="_blank" className="theme-btn btn-one">View</Link>
+                                                    <Link to={pdf4} target="_blank" className="theme-btn btn-one">View</Link>
                                                 </div>
                                             </div>
                                             <div className="download-box">
                                                 <div className="icon-box"><img src={pdficon} alt=""/></div>
                                                 <h6>Application for New Assessment of Property</h6>
                                                 <div className="download-btn">
-                                                    <Link to="../../assets/documents/downloads/new-assesment-property.pdf" target="_blank" className="theme-btn btn-one">View</Link>
+                                                    <Link to={pdf5} target="_blank" className="theme-btn btn-one">View</Link>
                                                 </div>
                                             </div>
                                         </div>
