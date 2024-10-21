@@ -16,10 +16,11 @@ import s13 from '../../assets/images/icons/Elected Wings.png'
 import s14 from '../../assets/images/icons/Elected Wings-WH.png'
 import s15 from '../../assets/images/icons/Official Publications.png'
 import s16 from '../../assets/images/icons/Official Publications-WH.png'
+import './ServiceHome.css'
 
 const ServicesHome = () => {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid container-fluid1">
             <section className="service-section-new">
                 <section className="council-section service-home">
                     <div className="service-sec">
@@ -56,7 +57,6 @@ const ServicesHome = () => {
                                                         <img className="Sirv image-main sirv-image-loaded" src={s5} data-src="assets/images/icons/Right to Service.png" referrerpolicy="no-referrer-when-downgrade" id="responsive-image-3590607" loading="lazy" alt="" />
                                                             <img className="Sirv image-hover sirv-image-loaded" data-src="assets/images/icons/Right to Service-WH.png" referrerpolicy="no-referrer-when-downgrade" id="responsive-image-6939514" loading="lazy" src={s6} alt="" />
                                                             </div>
-                                                            {/* <!-- <div className="icon-box"><img src="assets/images/icons/Right to Service.png" alt=""></div> --> */}
                                                             <h5><span>Right to Service</span></h5>
                                                     </div>
                                             </Link>
@@ -68,7 +68,6 @@ const ServicesHome = () => {
                                                         <img className="Sirv image-main sirv-image-loaded" src={s7} data-src="assets/images/icons/Development Plan.png" referrerpolicy="no-referrer-when-downgrade" id="responsive-image-619500" loading="lazy" alt="" />
                                                             <img className="Sirv image-hover sirv-image-loaded" data-src="assets/images/icons/Development Plan-WH.png" referrerpolicy="no-referrer-when-downgrade" id="responsive-image-5814142" loading="lazy" src={s8} alt="" />
                                                             </div>
-                                                            {/* <!-- <div className="icon-box"><img src="assets/images/icons/Development Plan.png" alt=""></div> --> */}
                                                             <h5><span>Development Plan </span></h5>
                                                     </div>
                                             </Link>

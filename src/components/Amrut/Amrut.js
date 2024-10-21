@@ -4,21 +4,21 @@ import innerBanner from "../../assets/images/banner/inner-banner.jpg";
 const Amrut = () => {
   return (
     <div>
-      <section class="page-title ">
+      <section className="page-title ">
         <div
-          class="bg-layer"
+          className="bg-layer"
           style={{
             backgroundImage: `url(${innerBanner})`,
           }}
         ></div>
-        <div class="line-box">
-          <div class="line-1"></div>
-          <div class="line-2"></div>
+        <div className="line-box">
+          <div className="line-1"></div>
+          <div className="line-2"></div>
         </div>
-        <div class="auto-container">
-          <div class="content-box">
+        <div className="auto-container">
+          <div className="content-box">
             <h1>Amrut</h1>
-            <ul class="bread-crumb clearfix">
+            <ul className="bread-crumb clearfix">
               <li>
                 <a href="#.">Schemes</a>
               </li>
@@ -32,14 +32,14 @@ const Amrut = () => {
       <br />
       <br />
 
-      <section class="service-style-four">
-        <div class="auto-container">
+      <section className="service-style-four">
+        <div className="auto-container">
           <h4>Ulb Code- 802792</h4>
-          <h4 class="pb-3 pt-2 color_blue">
+          <h4 className="pb-3 pt-2 color_blue">
             Atal Mission for Rejuvenation and Urban Transformation (Amrit)
             Mission (AMRUT)
           </h4>
-          <p class="text-black text-justify">
+          <p className="text-black text-justify">
             Letter C 14012/95/2015-69-A (Eka) dated 31/07/2015 regarding the
             implementation of Atal Mission for Dejuvenation and Urban
             Transformation (Amrit) scheme to improve the standard of living of
@@ -55,8 +55,8 @@ const Amrut = () => {
             resolution has been passed by one vote regarding participation in
             the said scheme under 168.
           </p>
-          <div class="table-responsive mt-3">
-            <table class="table table-bordered">
+          <div className="table-responsive mt-3">
+            <table className="table table-bordered">
               <tbody>
                 <tr>
                   <td rowspan="3">2</td>
@@ -92,8 +92,8 @@ const Amrut = () => {
               </tbody>
             </table>
           </div>
-          <div class="table-responsive mt-3">
-            <table class="table table-bordered">
+          <div className="table-responsive mt-3">
+            <table className="table table-bordered">
               <tbody>
                 <tr>
                   <td rowspan="3">3</td>
@@ -129,7 +129,7 @@ const Amrut = () => {
               </tbody>
             </table>
           </div>
-          <p class="text-black text-justify">
+          <p className="text-black text-justify">
             Kulgaon Badlapur Municipal Council has implemented Phase-1 Project
             of Sewage Disposal Scheme under Jawaharlal Nehru National Urban
             Reconstruction Mission, taking into consideration the instructions
@@ -148,21 +148,21 @@ const Amrut = () => {
             contractor's tender has been received despite calling for open
             e-tenders for the said work 4 times, the work of Mal: ​​Drainage
             Scheme (Phase-2) approved by Kulgaon- Badlapur Municipal Council
-            under Amrit Yojana has not been classified as an implemented system
+            under Amrit Yojana has not been classNameified as an implemented system
             by Maharashtra Life Authority. Pa. Special meeting dt. 27/06/2018
             Resolution no. 25 has been approved and dt. It has been approved by
             the Government on 28/06/2018. According to the approval of the
-            government, the municipal council has classified the said scheme as
+            government, the municipal council has classNameified the said scheme as
             a mechanism implemented by the Maharashtra Life Authority and the
             municipal council has so far received Rs.23.57 crores from the
             central government and Rs.11.78 crores from the state government and
             N.P. Share Rs.11.78 Crores Total Rs. A grant amounting to 47.13
-            crores has been classified. As no contractor's tender has been
+            crores has been classNameified. As no contractor's tender has been
             received despite calling for e-tenders for the said work 4 times,
             the work of 'Salt Disposal Scheme (Phase-2) approved by Kulgaon
             Badlapur Municipal Council under Amrut Yojana in Municipal Council
             Special Meeting dated 27/06/2018 has been entrusted to Maharashtra
-            Life Authority as the implementing mechanism. Classified and the
+            Life Authority as the implementing mechanism. classNameified and the
             Maharashtra Life Authority called for e-tenders and the contractor
             May. To Dream Constructions, Nandurbar. The work order has been
             given on 20/09/2019 and the work of the scheme is in progress and it

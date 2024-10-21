@@ -32,6 +32,7 @@ body .mobile-menu {
 } */
 
 
+
 /* Mobile Menu Scroll Fix */
 .mobile-menu {
     max-height: 100vh; /* Limits height to the full screen */
@@ -39,9 +40,10 @@ body .mobile-menu {
     -webkit-overflow-scrolling: touch; /* Enables smooth scrolling on touch devices */
 }
 
+
 /* Mobile Menu Submenu with Scroll */
 .mobile-menu li ul {
-    max-height: 300px; /* Fixed height of 60px for the submenu */
+    max-height: auto; /* Fixed height of 60px for the submenu */
     overflow-y: auto; /* Enable vertical scroll when content exceeds 60px */
     -webkit-overflow-scrolling: touch; /* Smooth scrolling for mobile devices */
     scrollbar-width: thin; /* Thinner scrollbar for Firefox */
@@ -60,5 +62,14 @@ body .mobile-menu {
 .mobile-menu li ul::-webkit-scrollbar-track {
     background-color: transparent; /* Track background color */
 }
+.mobile-menu li.dropdown ul {
+    overflow: hidden; /* Prevent scrolling */
+}
+
+/* Optional: For a smoother appearance */
+.mobile-menu li.dropdown ul::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in WebKit browsers */
+}
+
 
 

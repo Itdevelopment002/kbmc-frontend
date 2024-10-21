@@ -49,19 +49,19 @@ const TownPlanning = () => {
 
   return (
     <div>
-      <section class="page-title ">
+      <section className="page-title ">
         <div
-          class="bg-layer"
+          className="bg-layer"
           style={{ backgroundImage: `url(${innerBanner})` }}
         ></div>
-        <div class="line-box">
-          <div class="line-1"></div>
-          <div class="line-2"></div>
+        <div className="line-box">
+          <div className="line-1"></div>
+          <div className="line-2"></div>
         </div>
-        <div class="auto-container">
-          <div class="content-box">
+        <div className="auto-container">
+          <div className="content-box">
             <h1>Town Planning Department</h1>
-            <ul class="bread-crumb clearfix">
+            <ul className="bread-crumb clearfix">
               <li>
                 <a href="/departments">Departments</a>
               </li>
@@ -73,16 +73,16 @@ const TownPlanning = () => {
         </div>
       </section>
       <br />
-      <section class="departments-style-two alternat-2" id="town-planning">
-        <div class="auto-container">
-          <div class="row clearfix">
-            <div class="col-lg-9 col-md-12 col-sm-12 content-side">
-              <div class="department-details-content">
-                <div class="content-one">
-                  <div class="title-box">
+      <section className="departments-style-two alternat-2" id="town-planning">
+        <div className="auto-container">
+          <div className="row clearfix">
+            <div className="col-lg-9 col-md-12 col-sm-12 content-side">
+              <div className="department-details-content">
+                <div className="content-one">
+                  <div className="title-box">
                     <h3>Town Planning Department</h3>
                   </div>
-                  <div class="text-box">
+                  <div className="text-box">
                     <p>
                       The Urban Planning Department is responsible for creating
                       land use policies, zoning regulations, and development
@@ -101,386 +101,386 @@ const TownPlanning = () => {
                   </div>
                 </div>
                 <br />
-                <div class="content-box">
-                  <div class="row">
-                    <div class="col-lg-3 town_plan">
+                <div className="content-box">
+                  <div className="row">
+                    <div className="col-lg-3 town_plan">
                       <a
                         href={img1}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
-                        class=""
+                        className=""
                       >
                         <img
                           src={img1}
                           alt=""
-                          class="img-fluid"
+                          className="img-fluid"
                         />
-                        <h6 class="text-center">Badlapur</h6>
+                        <h6 className="text-center">Badlapur</h6>
                       </a>
-                      <div class="pdf-dwnl">
+                      <div className="pdf-dwnl">
                         <a
                           href={pdf1}
                           download
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <i class="fa fa-download"></i>
+                          <i className="fa fa-download"></i>
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 town_plan">
+                    <div className="col-lg-3 town_plan">
                       <a
                         href={img2}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
-                        class=""
+                        className=""
                       >
                         <img
                           src={img2}
                           alt=""
-                          class="img-fluid"
+                          className="img-fluid"
                         />
-                        <h6 class="text-center">Mankivali</h6>
+                        <h6 className="text-center">Mankivali</h6>
                       </a>
-                      <div class="pdf-dwnl">
+                      <div className="pdf-dwnl">
                         <a
                           href={pdf2}
                           download
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <i class="fa fa-download"></i>
+                          <i className="fa fa-download"></i>
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 town_plan">
+                    <div className="col-lg-3 town_plan">
                       <a
                         href={img3}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
-                        class="col-sm-3"
+                        className="col-sm-3"
                       >
                         <img
                           src={img3}
                           alt=""
-                          class="img-fluid"
+                          className="img-fluid"
                         />
-                        <h6 class="text-center">Badlapur</h6>
+                        <h6 className="text-center">Badlapur</h6>
                       </a>
-                      <div class="pdf-dwnl">
+                      <div className="pdf-dwnl">
                         <a
                           href={pdf3}
                           download
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <i class="fa fa-download"></i>
+                          <i className="fa fa-download"></i>
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 town_plan">
+                    <div className="col-lg-3 town_plan">
                       <a
                         href={img4}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
-                        class="col-sm-3"
+                        className="col-sm-3"
                       >
                         <img
                           src={img4}
                           alt=""
-                          class="img-fluid"
+                          className="img-fluid"
                         />
-                        <h6 class="text-center">Katrap</h6>
+                        <h6 className="text-center">Katrap</h6>
                       </a>
-                      <div class="pdf-dwnl">
+                      <div className="pdf-dwnl">
                         <a
                           href={pdf4}
                           download
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <i class="fa fa-download"></i>
+                          <i className="fa fa-download"></i>
                         </a>
                       </div>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-lg-3 town_plan">
+                  <div className="row">
+                    <div className="col-lg-3 town_plan">
                       <a
                         href={img5}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
-                        class="col-sm-3"
+                        className="col-sm-3"
                       >
                         <img
                           src={img5}
                           alt=""
-                          class="img-fluid"
+                          className="img-fluid"
                         />
-                        <h6 class="text-center">Joveli</h6>
+                        <h6 className="text-center">Joveli</h6>
                       </a>
-                      <div class="pdf-dwnl">
+                      <div className="pdf-dwnl">
                         <a
                           href={pdf5}
                           download
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <i class="fa fa-download"></i>
+                          <i className="fa fa-download"></i>
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 town_plan">
+                    <div className="col-lg-3 town_plan">
                       <a
                         href={img6}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
-                        class="col-sm-3"
+                        className="col-sm-3"
                       >
                         <img
                           src={img6}
                           alt=""
-                          class="img-fluid"
+                          className="img-fluid"
                         />
-                        <h6 class="text-center">Yernzad</h6>
+                        <h6 className="text-center">Yernzad</h6>
                       </a>
-                      <div class="pdf-dwnl">
+                      <div className="pdf-dwnl">
                         <a
                           href={pdf6}
                           download
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <i class="fa fa-download"></i>
+                          <i className="fa fa-download"></i>
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 town_plan">
+                    <div className="col-lg-3 town_plan">
                       <a
                         href={img7}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
-                        class="col-sm-3"
+                        className="col-sm-3"
                       >
                         <img
                           src={img7}
                           alt=""
-                          class="img-fluid"
+                          className="img-fluid"
                         />
-                        <h6 class="text-center">Badlapur</h6>
+                        <h6 className="text-center">Badlapur</h6>
                       </a>
-                      <div class="pdf-dwnl">
+                      <div className="pdf-dwnl">
                         <a
                           href={pdf7}
                           download
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <i class="fa fa-download"></i>
+                          <i className="fa fa-download"></i>
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 town_plan">
+                    <div className="col-lg-3 town_plan">
                       <a
                         href={img8}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
-                        class="col-sm-3"
+                        className="col-sm-3"
                       >
                         <img
                           src={img8}
                           alt=""
-                          class="img-fluid"
+                          className="img-fluid"
                         />
-                        <h6 class="text-center">Valivli</h6>
+                        <h6 className="text-center">Valivli</h6>
                       </a>
-                      <div class="pdf-dwnl">
+                      <div className="pdf-dwnl">
                         <a
                           href={pdf8}
                           download
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <i class="fa fa-download"></i>
+                          <i className="fa fa-download"></i>
                         </a>
                       </div>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-lg-3 town_plan">
+                  <div className="row">
+                    <div className="col-lg-3 town_plan">
                       <a
                         href={img9}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
-                        class="col-sm-3"
+                        className="col-sm-3"
                       >
                         <img
                           src={img9}
                           alt=""
-                          class="img-fluid"
+                          className="img-fluid"
                         />
-                        <h6 class="text-center">Belavali</h6>
+                        <h6 className="text-center">Belavali</h6>
                       </a>
-                      <div class="pdf-dwnl">
+                      <div className="pdf-dwnl">
                         <a
                           href={pdf9}
                           download
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <i class="fa fa-download"></i>
+                          <i className="fa fa-download"></i>
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 town_plan">
+                    <div className="col-lg-3 town_plan">
                       <a
                         href={img10}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
-                        class="col-sm-3"
+                        className="col-sm-3"
                       >
                         <img
                           src={img10}
                           alt=""
-                          class="img-fluid"
+                          className="img-fluid"
                         />
-                        <h6 class="text-center">Manjarli</h6>
+                        <h6 className="text-center">Manjarli</h6>
                       </a>
-                      <div class="pdf-dwnl">
+                      <div className="pdf-dwnl">
                         <a
                           href={pdf10}
                           download
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <i class="fa fa-download"></i>
+                          <i className="fa fa-download"></i>
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 town_plan">
+                    <div className="col-lg-3 town_plan">
                       <a
                         href={img11}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
-                        class="col-sm-3"
+                        className="col-sm-3"
                       >
                         <img
                           src={img11}
                           alt=""
-                          class="img-fluid"
+                          className="img-fluid"
                         />
-                        <h6 class="text-center">Sonivali</h6>
+                        <h6 className="text-center">Sonivali</h6>
                       </a>
-                      <div class="pdf-dwnl">
+                      <div className="pdf-dwnl">
                         <a
                           href={pdf11}
                           download
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <i class="fa fa-download"></i>
+                          <i className="fa fa-download"></i>
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 town_plan">
+                    <div className="col-lg-3 town_plan">
                       <a
                         href={img12}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
-                        class="col-sm-3"
+                        className="col-sm-3"
                       >
                         <img
                           src={img12}
                           alt=""
-                          class="img-fluid"
+                          className="img-fluid"
                         />
-                        <h6 class="text-center">Kharvai</h6>
+                        <h6 className="text-center">Kharvai</h6>
                       </a>
-                      <div class="pdf-dwnl">
+                      <div className="pdf-dwnl">
                         <a
                           href={pdf12}
                           download
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <i class="fa fa-download"></i>
+                          <i className="fa fa-download"></i>
                         </a>
                       </div>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-lg-3 town_plan">
+                  <div className="row">
+                    <div className="col-lg-3 town_plan">
                       <a
                         href={img13}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
-                        class="col-sm-3"
+                        className="col-sm-3"
                       >
                         <img
                           src={img13}
                           alt=""
-                          class="img-fluid"
+                          className="img-fluid"
                         />
-                        <h6 class="text-center">Shirgaon</h6>
+                        <h6 className="text-center">Shirgaon</h6>
                       </a>
-                      <div class="pdf-dwnl">
+                      <div className="pdf-dwnl">
                         <a
                           href={pdf13}
                           download
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <i class="fa fa-download"></i>
+                          <i className="fa fa-download"></i>
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 town_plan">
+                    <div className="col-lg-3 town_plan">
                       <a
                         href={img14}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
-                        class="col-sm-3"
+                        className="col-sm-3"
                       >
                         <img
                           src={img14}
                           alt=""
-                          class="img-fluid"
+                          className="img-fluid"
                         />
-                        <h6 class="text-center">Shirgaon</h6>
+                        <h6 className="text-center">Shirgaon</h6>
                       </a>
-                      <div class="pdf-dwnl">
+                      <div className="pdf-dwnl">
                         <a
                           href={pdf14}
                           download
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <i class="fa fa-download"></i>
+                          <i className="fa fa-download"></i>
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 town_plan">
+                    <div className="col-lg-3 town_plan">
                       <a
                         href={img15}
                         data-toggle="lightbox"
                         data-gallery="example-gallery"
-                        class="col-sm-3"
+                        className="col-sm-3"
                       >
                         <img
                           src={img15}
                           alt=""
-                          class="img-fluid"
+                          className="img-fluid"
                         />
-                        <h6 class="text-center">Kulgaon</h6>
+                        <h6 className="text-center">Kulgaon</h6>
                       </a>
-                      <div class="pdf-dwnl">
+                      <div className="pdf-dwnl">
                         <a
                           href={pdf15}
                           download
                           target="_blank" 
                           rel="noreferrer"
                         >
-                          <i class="fa fa-download"></i>
+                          <i className="fa fa-download"></i>
                         </a>
                       </div>
                     </div>
@@ -488,11 +488,11 @@ const TownPlanning = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-12 col-sm-12 sidebar-side">
-              <div class="department-sidebar">
-                <div class="category-widget">
-                  <div class="widget-content">
-                    <ul class="category-list clearfix">
+            <div className="col-lg-3 col-md-12 col-sm-12 sidebar-side">
+              <div className="department-sidebar">
+                <div className="category-widget">
+                  <div className="widget-content">
+                    <ul className="category-list clearfix">
                       <li>
                         {" "}
                         <a href="/general-admin-dept">

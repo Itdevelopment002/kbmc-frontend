@@ -3,11 +3,12 @@ import React from "react";
 // Import images
 import fireEastImg from "../../assets/images/gallery/Fire_East.jpg";
 import fireWestImg from "../../assets/images/gallery/Fire_West.jpg";
-import bannerImage from "../../assets/images/banner/inner-banner.jpg"; // Assuming you have this banner image in your assets
+import bannerImage from "../../assets/images/banner/inner-banner.jpg"; 
+
 
 const FireStation = () => {
   return (
-    <div>
+    <>
       <section className="page-title">
         <div
           className="bg-layer"
@@ -31,11 +32,11 @@ const FireStation = () => {
           </div>
         </div>
       </section>
-      <br /> <br />
+      <br/> <br/>
       <section
         className="sidebar-page-container event-page-section mt-5"
         id="fire-station"
-      >
+       >
         <div className="auto-container">
           <div className="row clearfix">
             <div className="col-lg-6 col-md-12 col-sm-12 content-side">
@@ -120,7 +121,7 @@ const FireStation = () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 

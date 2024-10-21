@@ -4,21 +4,21 @@ import innerBanner from "../../assets/images/banner/inner-banner.jpg";
 const Nuhm = () => {
   return (
     <div>
-      <section class="page-title">
+      <section className="page-title">
         <div
-          class="bg-layer"
+          className="bg-layer"
           style={{
             backgroundImage: `url(${innerBanner})`,
           }}
         ></div>
-        <div class="line-box">
-          <div class="line-1"></div>
-          <div class="line-2"></div>
+        <div className="line-box">
+          <div className="line-1"></div>
+          <div className="line-2"></div>
         </div>
-        <div class="auto-container">
-          <div class="content-box">
+        <div className="auto-container">
+          <div className="content-box">
             <h1>NUHM</h1>
-            <ul class="bread-crumb clearfix">
+            <ul className="bread-crumb clearfix">
               <li>
                 <a href="#.">Schemes</a>
               </li>
@@ -29,12 +29,12 @@ const Nuhm = () => {
           </div>
         </div>
       </section>
-      <section class="departments-style-two alternat-2 nuhm_inner">
-        <div class="auto-container">
-          <div class="content-two">
-            <h3 class="color_blue">National Urban Health Mission (NUHM)</h3>
+      <section className="departments-style-two alternat-2 nuhm_inner">
+        <div className="auto-container">
+          <div className="content-two">
+            <h3 className="color_blue">National Urban Health Mission (NUHM)</h3>
             <br />
-            <h5 class="mb-3">
+            <h5 className="mb-3">
               NUHM envisages to meet health care needs of the urban population
               with the focus on urban poor, by making available to them
               essential primary health care services and reducing their out of
@@ -43,7 +43,7 @@ const Nuhm = () => {
             <h5>
               <b>Goals :</b>
             </h5>
-            <ul class="list-item clearfix mt-2">
+            <ul className="list-item clearfix mt-2">
               <li>
                 i) Need based city specific urban health care system to meet the
                 diverse health care needs of the urban poor and other vulnerable
@@ -68,11 +68,11 @@ const Nuhm = () => {
               </li>
             </ul>
 
-            <h5 class="mt-3">
+            <h5 className="mt-3">
               <b>Goals :</b>
             </h5>
             <p>Services Provided By ASHA Worker</p>
-            <ul class="list-item clearfix mt-2">
+            <ul className="list-item clearfix mt-2">
               <li>1 Community Monitoring.</li>
               <li>2 Home Visit For New Born Care And Antenatal Visits.</li>
               <li>
@@ -82,7 +82,7 @@ const Nuhm = () => {
               <li>4 Area Visit And Survey For Different National Programs.</li>
             </ul>
 
-            <h5 class="mt-3">
+            <h5 className="mt-3">
               <b>Schemes Under NUHM</b>
             </h5>
             <p>1 Reproductive And Child Health</p>
@@ -93,10 +93,10 @@ const Nuhm = () => {
               health (RMNCH) schemes/programme delivery and reporting.
             </p>
 
-            <h5 class="mt-3">
+            <h5 className="mt-3">
               <b>Key aspects of RCH Portal:</b>
             </h5>
-            <ul class="list-item clearfix mt-2 nuhm_list">
+            <ul className="list-item clearfix mt-2 nuhm_list">
               <li>
                 Playing a vital role in key decision making and monitoring the
                 implementation of health schemes in the country.
@@ -117,16 +117,16 @@ const Nuhm = () => {
               </li>
             </ul>
 
-            <h5 class="mt-3">
+            <h5 className="mt-3">
               <b>2 Routine Immunisation</b>
             </h5>
-            <ul class="list-item clearfix mt-2 nuhm_list">
+            <ul className="list-item clearfix mt-2 nuhm_list">
               <li>For age 0-5 years</li>
               <li>Pregnant Woman</li>
               <li>Buster Dose at 10 & 16 Years Age</li>
             </ul>
 
-            <h5 class="mt-3 mb-2">
+            <h5 className="mt-3 mb-2">
               <b>
                 <i>3 Pradhan Mantri Matru Vandana Yojana (PMMVY)</i>
               </b>
@@ -134,7 +134,7 @@ const Nuhm = () => {
             <p>
               <b>The Objectives of the PMMVY</b>
             </p>
-            <ul class="list-item clearfix mt-2 nuhm_list">
+            <ul className="list-item clearfix mt-2 nuhm_list">
               <li>
                 To provide cash incentive for partial compensation for the wage
                 loss so that the woman can take adequate rest before and after
@@ -155,7 +155,7 @@ const Nuhm = () => {
               </li>
             </ul>
 
-            <ul class="list-item clearfix mt-2 nuhm_list">
+            <ul className="list-item clearfix mt-2 nuhm_list">
               <li>
                 i. Women belonging to scheduled castes and scheduled tribes;
               </li>
@@ -204,10 +204,10 @@ const Nuhm = () => {
               Beneficiary so as to avoid any duplication or malpractices.
             </p>
 
-            <h5 class="mt-3 mb-2">
+            <h5 className="mt-3 mb-2">
               <b>Registration under the Scheme:</b>
             </h5>
-            <ul class="list-item clearfix mt-2 nuhm_list">
+            <ul className="list-item clearfix mt-2 nuhm_list">
               <li>
                 I. The eligible women desirous of availing maternity benefits
                 are required to register under the scheme at the Anganwadi
@@ -230,7 +230,7 @@ const Nuhm = () => {
               </li>
             </ul>
 
-            <h5 class="mt-3 mb-2">
+            <h5 className="mt-3 mb-2">
               <b>Janani Suraksha Yojana</b>
             </h5>
             <p>
@@ -250,7 +250,7 @@ const Nuhm = () => {
               effective link between the government and pregnant women.
             </p>
 
-            <h5 class="mt-3 mb-2">
+            <h5 className="mt-3 mb-2">
               <b>Objectives:</b>
             </h5>
             <p>
@@ -259,7 +259,7 @@ const Nuhm = () => {
               & ST.
             </p>
 
-            <h5 class="mt-3 mb-2">
+            <h5 className="mt-3 mb-2">
               <b>Strategy:</b>
             </h5>
             <p>

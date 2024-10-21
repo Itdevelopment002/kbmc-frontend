@@ -18,3 +18,16 @@
     background-position: center; /* Center the background image */
   }
   
+  @media (max-width: 650px) {
+    .banner-carousel .slide-item {
+      padding: 90px 0px 150px 0px !important;
+  }
+}
+
+@media(max-width: 499px) {
+  .banner-carousel .slide-item .image-layer {
+      top: 40px !important;
+      height: 65% !important;
+  }
+}
+  

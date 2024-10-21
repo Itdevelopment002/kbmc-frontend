@@ -11898,7 +11898,7 @@ div#mCSB_1_container{
 
 .sidebar-page-container{
   position: relative;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .sidebar-page-container .blog-grid-content{
