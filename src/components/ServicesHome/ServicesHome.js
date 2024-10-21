@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import s1 from '../../assets/images/icons/Public Disclosure.png'
-import s2 from '../../assets/images/icons/Citizen Charter-WH.png'
+import s2 from '../../assets/images/icons/Public Disclosure-WH.png'
 import s3 from '../../assets/images/icons/Citizen Charter.png'
 import s4 from '../../assets/images/icons/Citizen Charter-WH.png'
 import s5 from '../../assets/images/icons/Right to Service.png'
