@@ -16,16 +16,16 @@ import pdf10 from "../../assets/documents/rts/office_inspection.pdf";
 const RightToService = () => {
     return (
         <>
-            <section class="page-title ">
+            <section className="page-title ">
                 <div className="bg-layer" style={{ backgroundImage: `url(${innerBanner})` }}></div>
-                <div class="line-box">
-                    <div class="line-1"></div>
-                    <div class="line-2"></div>
+                <div className="line-box">
+                    <div className="line-1"></div>
+                    <div className="line-2"></div>
                 </div>
-                <div class="auto-container">
-                    <div class="content-box">
+                <div className="auto-container">
+                    <div className="content-box">
                         <h1>Right to Service</h1>
-                        <ul class="bread-crumb clearfix">
+                        <ul className="bread-crumb clearfix">
                             <li><a href="/">Home</a></li>
                             <li><span>Right to Service</span></li>
                         </ul>

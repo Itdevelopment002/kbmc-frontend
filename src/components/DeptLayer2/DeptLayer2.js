@@ -46,21 +46,21 @@ const DeptLayer2 = () => {
 
   return (
     <div>
-      <section class="page-title ">
+      <section className="page-title ">
         <div
-          class="bg-layer"
+          className="bg-layer"
           style={{
             backgroundImage: `url(${innerBanner})`,
           }}
         ></div>
-        <div class="line-box">
-          <div class="line-1"></div>
-          <div class="line-2"></div>
+        <div className="line-box">
+          <div className="line-1"></div>
+          <div className="line-2"></div>
         </div>
-        <div class="auto-container">
-          <div class="content-box">
+        <div className="auto-container">
+          <div className="content-box">
             <h1>General Admin Department</h1>
-            <ul class="bread-crumb clearfix">
+            <ul className="bread-crumb clearfix">
               <li>
                 <a href="/departments">Departments</a>
               </li>
@@ -71,13 +71,13 @@ const DeptLayer2 = () => {
           </div>
         </div>
       </section>
-      <section class="departments-style-two faq-section alternat-2">
-        <div class="auto-container">
-          <div class="row clearfix">
-            <div class="col-lg-9 col-md-12 col-sm-12 content-side">
-              <div class="department-details-content">
-                <div class="content-one dept_leyer_1">
-                  <div class="title-box">
+      <section className="departments-style-two faq-section alternat-2">
+        <div className="auto-container">
+          <div className="row clearfix">
+            <div className="col-lg-9 col-md-12 col-sm-12 content-side">
+              <div className="department-details-content">
+                <div className="content-one dept_leyer_1">
+                  <div className="title-box">
                     <h3>
                       General Meeting and Standing Committee Meeting Resolutions
                     </h3>
@@ -85,10 +85,10 @@ const DeptLayer2 = () => {
                   </div>
                 </div>
               </div>
-              <div class="row clearfix">
-                <div class="col-lg-1 col-md-1 col-sm-1 image-column">
-                  <div class="image-box">
-                    <figure class="image">
+              <div className="row clearfix">
+                <div className="col-lg-1 col-md-1 col-sm-1 image-column">
+                  <div className="image-box">
+                    <figure className="image">
                       <img src="assets/images/resource/faq-1.jpg" alt="" />
                     </figure>
                   </div>
@@ -99,17 +99,17 @@ const DeptLayer2 = () => {
                       {/* First Accordion */}
                       <li className={`accordion block ${activeIndex === 0 ? 'active-block' : ''}`}>
                         <div className="acc-btn" onClick={() => handleAccordionClick(0)}>
-                          <span class="count-text">01</span>
+                          <span className="count-text">01</span>
                           <h3>Year 2021 - 2022</h3>
                         </div>
                         <div className="acc-content" style={{ display: activeIndex === 0 ? 'block' : 'none' }}>
-                          <div class="row">
-                            <div class="col-md-6">
-                              <h5 class="pb-3 pl-5">General Meeting</h5>
+                          <div className="row">
+                            <div className="col-md-6">
+                              <h5 className="pb-3 pl-5">General Meeting</h5>
                               <ul></ul>
                             </div>
-                            <div class="col-md-6">
-                              <h5 class="pb-3 pl-5">
+                            <div className="col-md-6">
+                              <h5 className="pb-3 pl-5">
                                 Standing Committee Meeting Resolutions
                               </h5>
                               <ul>
@@ -225,17 +225,17 @@ const DeptLayer2 = () => {
                       </li>
                       <li className={`accordion block ${activeIndex === 1 ? 'active-block' : ''}`}>
                         <div className="acc-btn" onClick={() => handleAccordionClick(1)}>
-                          <span class="count-text">02</span>
+                          <span className="count-text">02</span>
                           <h3>Year 2022 - 2023</h3>
                         </div>
                         <div className="acc-content" style={{ display: activeIndex === 1 ? 'block' : 'none' }}>
-                          <div class="row">
-                            <div class="col-md-6">
-                              <h5 class="pb-3 pl-5">General Meeting</h5>
+                          <div className="row">
+                            <div className="col-md-6">
+                              <h5 className="pb-3 pl-5">General Meeting</h5>
                               <ul></ul>
                             </div>
-                            <div class="col-md-6">
-                              <h5 class="pb-3 pl-5">
+                            <div className="col-md-6">
+                              <h5 className="pb-3 pl-5">
                                 Standing Committee Meeting Resolutions
                               </h5>
                               <ul>
@@ -342,18 +342,18 @@ const DeptLayer2 = () => {
                       </li>
                       <li className={`accordion block ${activeIndex === 2 ? 'active-block' : ''}`}>
                         <div className="acc-btn" onClick={() => handleAccordionClick(2)}>
-                          <span class="count-text">03</span>
+                          <span className="count-text">03</span>
                           <h3>Year 2023 - 2024</h3>
                         </div>
                         <div className="acc-content" style={{ display: activeIndex === 2 ? 'block' : 'none' }}>
-                          <div class="row">
-                            <div class="col-md-6">
-                              <h5 class="pb-3 pl-5">General Meeting</h5>
+                          <div className="row">
+                            <div className="col-md-6">
+                              <h5 className="pb-3 pl-5">General Meeting</h5>
                               <ul>
                               </ul>
                             </div>
-                            <div class="col-md-6">
-                              <h5 class="pb-3 pl-5">
+                            <div className="col-md-6">
+                              <h5 className="pb-3 pl-5">
                                 Standing Committee Meeting Resolutions
                               </h5>
                               <ul>
@@ -444,17 +444,17 @@ const DeptLayer2 = () => {
                       </li>
                       <li className={`accordion block ${activeIndex === 3 ? 'active-block' : ''}`}>
                         <div className="acc-btn" onClick={() => handleAccordionClick(3)}>
-                          <span class="count-text">04</span>
+                          <span className="count-text">04</span>
                           <h3>Year 2024 - 2025</h3>
                         </div>
                         <div className="acc-content" style={{ display: activeIndex === 3 ? 'block' : 'none' }}>
-                          <div class="row">
-                            <div class="col-md-6">
-                              <h5 class="pb-3 pl-5">General Meeting</h5>
+                          <div className="row">
+                            <div className="col-md-6">
+                              <h5 className="pb-3 pl-5">General Meeting</h5>
                               <ul></ul>
                             </div>
-                            <div class="col-md-6">
-                              <h5 class="pb-3 pl-5">
+                            <div className="col-md-6">
+                              <h5 className="pb-3 pl-5">
                                 Standing Committee Meeting Resolutions
                               </h5>
                               <ul></ul>
@@ -467,11 +467,11 @@ const DeptLayer2 = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-12 col-sm-12 sidebar-side">
-              <div class="department-sidebar">
-                <div class="category-widget">
-                  <div class="widget-content">
-                  <ul class="category-list clearfix">
+            <div className="col-lg-3 col-md-12 col-sm-12 sidebar-side">
+              <div className="department-sidebar">
+                <div className="category-widget">
+                  <div className="widget-content">
+                  <ul className="category-list clearfix">
                       <li>
                         {" "}
                         <a href="/general-admin-department">

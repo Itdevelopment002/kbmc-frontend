@@ -4,19 +4,19 @@ import innerBanner from "../../assets/images/banner/inner-banner.jpg";
 const PrivacyPolicy = () => {
   return (
     <div>
-      <section class="page-title">
+      <section className="page-title">
         <div
-          class="bg-layer"
+          className="bg-layer"
           style={{ backgroundImage: `url(${innerBanner})` }}
         ></div>
-        <div class="line-box">
-          <div class="line-1"></div>
-          <div class="line-2"></div>
+        <div className="line-box">
+          <div className="line-1"></div>
+          <div className="line-2"></div>
         </div>
-        <div class="auto-container">
-          <div class="content-box">
+        <div className="auto-container">
+          <div className="content-box">
             <h1>Privacy Policy</h1>
-            <ul class="bread-crumb clearfix">
+            <ul className="bread-crumb clearfix">
               <li>
                 <a href="/">Home</a>
               </li>
@@ -29,11 +29,11 @@ const PrivacyPolicy = () => {
       </section>
       <br />
       <br />
-      <section class="event-details">
-        <div class="auto-container">
-          <div class="content-side">
-            <div class="event-details-content">
-              <div class="content-one">
+      <section className="event-details">
+        <div className="auto-container">
+          <div className="content-side">
+            <div className="event-details-content">
+              <div className="content-one">
                 <h3>Disclaimer</h3>
                 <p>
                   Although information and contents of various departmental

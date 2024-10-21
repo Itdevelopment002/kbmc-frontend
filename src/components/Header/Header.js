@@ -13,94 +13,84 @@ import "./Header.css";
 const Header = () => {
   useEffect(() => {
     if ($(".mobile-menu").length) {
-      const mobileMenuContent = $(".main-header .menu-area .main-menu").html();
-      $(".mobile-menu .menu-box .menu-outer").append(mobileMenuContent);
-      $(".sticky-header .main-menu").append(mobileMenuContent);
+        const mobileMenuContent = $(".main-header .menu-area .main-menu").html();
+        $(".mobile-menu .menu-box .menu-outer").append(mobileMenuContent);
+        $(".sticky-header .main-menu").append(mobileMenuContent);
 
-      // Open the dropdown initially and keep it open
-      $(".mobile-menu li.dropdown .dropdown-btn").each(function () {
-        const $this = $(this);
-        $this.addClass("open"); // Keep the dropdown open initially
-        $this.prev("ul").slideDown(0); // Show the dropdown content
-        $this.find(".fas").addClass("rotate-icon"); // Optional: add the rotate effect for the icon
-      });
+        $(".mobile-menu li.dropdown .dropdown-btn").each(function () {
+            const $this = $(this);
+            $this.addClass("open"); 
+            $this.prev("ul").slideDown(0);
+            $this.find(".fas").addClass("rotate-icon");
+        });
 
-      // Dropdown Button Toggle
-      $(".mobile-menu li.dropdown .dropdown-btn").on("click", function (e) {
-        e.stopPropagation();
+        $(".mobile-menu li.dropdown .dropdown-btn").on("click", function (e) {
+            e.stopPropagation();
 
-        const $this = $(this);
-        const $dropdownMenu = $this.prev("ul");
+            const $this = $(this);
+            const $dropdownMenu = $this.prev("ul");
 
-        // Check if the dropdown is already open
-        if ($this.hasClass("open")) {
-          // Do NOT close the dropdown automatically
-          return;
-        } else {
-          // Open the clicked dropdown and close any other open dropdowns
-          $(".mobile-menu li.dropdown .dropdown-btn.open").each(function () {
-            $(this).removeClass("open");
-            $(this).prev("ul").slideUp(500);
-            $(this).find(".fas").removeClass("rotate-icon");
-          });
+            if ($this.hasClass("open")) {
+                return;
+            } else {
+                $(".mobile-menu li.dropdown .dropdown-btn.open").each(function () {
+                    $(this).removeClass("open");
+                    $(this).prev("ul").slideUp(500);
+                    $(this).find(".fas").removeClass("rotate-icon");
+                });
 
-          $this.addClass("open");
-          $dropdownMenu.slideDown(500);
-          $this.find(".fas").addClass("rotate-icon");
-        }
-      });
+                $this.addClass("open");
+                $dropdownMenu.slideDown(500);
+                $this.find(".fas").addClass("rotate-icon");
+            }
+        });
 
-      // Mobile menu toggle button
-      $(".mobile-nav-toggler").on("click", function () {
-        $("body").addClass("mobile-menu-visible");
-        $(".mobile-menu").addClass("visible");
-      });
+        $(".mobile-nav-toggler").on("click", function () {
+            $("body").addClass("mobile-menu-visible");
+            $(".mobile-menu").addClass("visible");
+        });
 
-      // Close button for mobile menu
-      $(".mobile-menu .menu-backdrop, .mobile-menu .close-btn").on(
-        "click",
-        function () {
-          $("body").removeClass("mobile-menu-visible");
-          $(".mobile-menu").removeClass("visible");
+        $(".mobile-menu .menu-backdrop, .mobile-menu .close-btn").on("click", function () {
+            $("body").removeClass("mobile-menu-visible");
+            $(".mobile-menu").removeClass("visible");
 
-          // Remove open state and collapse all dropdowns when the mobile menu is closed
-          $(".mobile-menu li.dropdown .dropdown-btn").removeClass("open");
-          $(".mobile-menu li.dropdown ul  ").slideUp(500);
-        }
-      );
+            $(".mobile-menu li.dropdown .dropdown-btn").removeClass("open");
+            $(".mobile-menu li.dropdown li.dropdown-btn ul").slideUp(500);
+        });
 
-      // Optional: Close dropdown if clicked outside
-      $(document).on("click", function () {
-        $(".mobile-menu li.dropdown .dropdown-btn").removeClass("open");
-        $(".mobile-menu li.dropdown ul").slideUp(500);
-      });
+        $(document).on("click", function () {
+            $(".mobile-menu li.dropdown .dropdown-btn").removeClass("open");
+            $(".mobile-menu li.dropdown ul").slideUp(500);
+        });
     }
-  }, []);
+}, []);
+
 
   return (
     <>
-      <div class="boxed_wrapper">
-        <div id="search-popup" class="search-popup">
-          <div class="popup-inner">
-            <div class="upper-box clearfix">
-              <figure class="logo-box pull-left">
+    
+      <div className="boxed_wrapper">
+        <div id="search-popup" className="search-popup">
+          <div className="popup-inner">
+            <div className="upper-box clearfix">
+              <figure className="logo-box pull-left">
                 <a href="/">
                   <img src={img3} alt="KBMC Logo" />
                 </a>
               </figure>
-              <div class="close-search pull-right">
-                <i class="fa-solid fa-xmark"></i>
+              <div className="close-search pull-right">
+                <i className="fa-solid fa-xmark"></i>
               </div>
             </div>
-            <div class="overlay-layer"></div>
-            <div class="auto-container">
-              <div class="search-form">
+            <div className="overlay-layer"></div>
+            <div className="auto-container">
+              <div className="search-form">
                 <form method="post" action="#.">
-                  <div class="form-group">
+                  <div className="form-group">
                     <fieldset>
                       <input
                         type="search"
-                        class="form-control"
+                        className="form-control"
                         name="search-input"
                         value=""
                         placeholder="Type your keyword and hit"
@@ -117,22 +107,22 @@ const Header = () => {
           </div>
         </div>
 
-        <header class="main-header">
-          <div class="header-top">
-            <div class="row" style={{ alignItems: "center" }}>
-              <div class="col-md-5 col-xl-5 text-start"></div>
-              <div class="col-md-2 col-xl-2">
-                <figure class="logo text-center">
+        <header className="main-header">
+          <div className="header-top">
+            <div className="row" style={{ alignItems: "center" }}>
+              <div className="col-md-5 col-xl-5 text-start"></div>
+              <div className="col-md-2 col-xl-2">
+                <figure className="logo text-center">
                   <a href="#.">
                     <img src={img1} alt="logo" style={{ width: "50px" }} />
                   </a>
                 </figure>
               </div>
 
-              <div class="col-md-2 col-xl-2">
-                <div class="search-box">
+              <div className="col-md-2 col-xl-2">
+                <div className="search-box">
                   <form method="post" action="#.">
-                    <div class="form-group">
+                    <div className="form-group">
                       <input
                         type="search"
                         name="search-field"
@@ -146,12 +136,12 @@ const Header = () => {
                   </form>
                 </div>
               </div>
-              <div class="col-md-2 col-xl-3">
-                <ul class="social-links clearfix d-none d-md-block">
+              <div className="col-md-2 col-xl-3">
+                <ul className="social-links clearfix d-none d-md-block">
                   <li>
-                    <div class="language-box">
-                      <div class="select-box">
-                        <select class="selectmenu">
+                    <div className="language-box">
+                      <div className="select-box">
+                        <select className="selectmenu">
                           <option>English</option>
                           <option>Marathi</option>
                         </select>
@@ -160,12 +150,12 @@ const Header = () => {
                   </li>
                   <li>
                     <a href="#.">
-                      <span class="fab fa-youtube"></span>
+                      <span className="fab fa-youtube"></span>
                     </a>
                   </li>
                   <li>
                     <a href="#.">
-                      <span class="fab fa-instagram"></span>
+                      <span className="fab fa-instagram"></span>
                     </a>
                   </li>
                   <li>
@@ -174,7 +164,7 @@ const Header = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <span class="fab fa-twitter"></span>
+                      <span className="fab fa-twitter"></span>
                     </a>
                   </li>
                   <li>
@@ -183,7 +173,7 @@ const Header = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <span class="fab fa-facebook"></span>
+                      <span className="fab fa-facebook"></span>
                     </a>
                   </li>
                 </ul>
@@ -191,31 +181,31 @@ const Header = () => {
             </div>
           </div>
 
-          <div class="header-lower">
-            <div class="outer-box">
-              <div class="logo-box">
-                <figure class="logo">
+          <div className="header-lower">
+            <div className="outer-box">
+              <div className="logo-box">
+                <figure className="logo">
                   <a href="/">
                     <img src={img3} alt="logo" />
                   </a>
                 </figure>
               </div>
-              <div class="menu-area">
-                <div class="mobile-nav-toggler">
-                  <i class="icon-bar"></i>
-                  <i class="icon-bar"></i>
-                  <i class="icon-bar"></i>
+              <div className="menu-area">
+                <div className="mobile-nav-toggler">
+                  <i className="icon-bar"></i>
+                  <i className="icon-bar"></i>
+                  <i className="icon-bar"></i>
                 </div>
-                <nav class="main-menu navbar-expand-md navbar-light">
+                <nav className="main-menu navbar-expand-md navbar-light">
                   <div
-                    class="collapse navbar-collapse show clearfix"
+                    className="collapse navbar-collapse show clearfix"
                     id="navbarSupportedContent"
                   >
-                    <ul class="navigation clearfix">
-                      <li class="current">
+                    <ul className="navigation clearfix">
+                      <li className="current">
                         <a href="/">Home</a>{" "}
                       </li>
-                      <li class="dropdown">
+                      <li className="dropdown">
                         <a href="#.">About KBMC</a>
                         <ul>
                           <li>
@@ -251,7 +241,7 @@ const Header = () => {
                           </li>
                         </ul>
                       </li>
-                      <li class="dropdown">
+                      <li className="dropdown">
                         <a href="#.">City Profile</a>
                         <ul>
                           <li>
@@ -298,7 +288,7 @@ const Header = () => {
                           </li>
                         </ul>
                       </li>
-                      <li class="dropdown">
+                      <li className="dropdown">
                         <a href="#.">Online Services</a>
                         <ul>
                           <li>
@@ -357,7 +347,7 @@ const Header = () => {
                           </li>
                         </ul>
                       </li>
-                      <li class="dropdown">
+                      <li className="dropdown">
                         <a href="#.">Schemes</a>
                         <ul>
                           <li>
@@ -390,7 +380,7 @@ const Header = () => {
                         </ul>
                       </li>
 
-                      <li class="dropdown">
+                      <li className="dropdown">
                         <a href="#.">Complaints</a>
                         <ul>
                           <li>
@@ -425,9 +415,9 @@ const Header = () => {
                     </ul>
                   </div>
                 </nav>
-                <div class="menu-right-content">
-                  <div class="btn-box">
-                    <a href="#." class="header-btn">
+                <div className="menu-right-content">
+                  <div className="btn-box">
+                    <a href="#." className="header-btn">
                       Login
                     </a>
                   </div>
@@ -436,11 +426,11 @@ const Header = () => {
             </div>
           </div>
 
-          <div class="sticky-header">
-            <div class="outer-container">
-              <div class="outer-box">
-                <div class="logo-box">
-                  <figure class="logo">
+          <div className="sticky-header">
+            <div className="outer-container">
+              <div className="outer-box">
+                <div className="logo-box">
+                  <figure className="logo">
                     <a href="#.">
                       <img
                         src="assets/images/KBMC-logo-1-edited2.png"
@@ -449,23 +439,23 @@ const Header = () => {
                     </a>
                   </figure>
                 </div>
-                <div class="menu-area clearfix">
-                  <nav class="main-menu clearfix"></nav>
-                  <div class="menu-right-content">
-                    <div class="search-box">
-                      <div class="search-box-outer search-toggler">
+                <div className="menu-area clearfix">
+                  <nav className="main-menu clearfix"></nav>
+                  <div className="menu-right-content">
+                    <div className="search-box">
+                      <div className="search-box-outer search-toggler">
                         <img src="assets/images/icons/icon-4.png" alt="" />
                       </div>
                     </div>
 
-                    <div class="btn-box">
-                      <a href="#." class="header-btn">
+                    <div className="btn-box">
+                      <a href="#." className="header-btn">
                         Administration Chief
                       </a>
                     </div>
-                    <div class="language-box">
-                      <div class="select-box">
-                        <select class="selectmenu">
+                    <div className="language-box">
+                      <div className="select-box">
+                        <select className="selectmenu">
                           <option>English</option>
                           <option>Marathi</option>
                         </select>
@@ -484,7 +474,7 @@ const Header = () => {
             <i className="fas fa-times"></i>
           </div>
 
-          <nav className="menu-box mCustomScrollbar">
+          <nav className="menu-box">
             <div className="nav-logo">
               <a href="#.">
                 <img

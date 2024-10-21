@@ -13,6 +13,7 @@ import logo7 from '../../assets/images/footerlogo/07.png';
 import logo8 from '../../assets/images/footerlogo/08.png';
 import './BottomSlider.css'
 
+
 // Custom Next Arrow
 const NextArrow = (props) => {
   const { onClick } = props;
@@ -67,6 +68,7 @@ const BottomSlider = () => {
         breakpoint: 480,
         settings: {
           slidesToShow: 2,
+          className: 'slider-padding',
         },
       },
     ],
@@ -78,7 +80,7 @@ const BottomSlider = () => {
         <div className="inner-box">
           <Slider {...settings}>
             {[logo5, logo1, logo6, logo7, logo8, logo1, logo2, logo3, logo4].map((logo, index) => (
-              <div key={index}>
+              <div key={index}  className="logo-slide">
                 <a href={getLogoLink(index)} target="_blank" rel="noopener noreferrer">
                   <img src={logo} alt={`logo-${index + 1}`} />
                 </a>

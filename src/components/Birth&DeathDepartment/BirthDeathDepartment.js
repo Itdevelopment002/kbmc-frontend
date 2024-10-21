@@ -4,19 +4,19 @@ import innerBanner from "../../assets/images/banner/inner-banner.jpg";
 const BirthDeathDepartment = () => {
   return (
     <>
-      <section class="page-title ">
+      <section className="page-title ">
         <div
           className="bg-layer"
           style={{ backgroundImage: `url(${innerBanner})` }}
         ></div>
-        <div class="line-box">
-          <div class="line-1"></div>
-          <div class="line-2"></div>
+        <div className="line-box">
+          <div className="line-1"></div>
+          <div className="line-2"></div>
         </div>
-        <div class="auto-container">
-          <div class="content-box">
+        <div className="auto-container">
+          <div className="content-box">
             <h1>Birth & Death Department</h1>
-            <ul class="bread-crumb clearfix">
+            <ul className="bread-crumb clearfix">
               <li>
                 <a href="/departments">Departments</a>
               </li>
@@ -28,13 +28,13 @@ const BirthDeathDepartment = () => {
         </div>
       </section>
       <br />
-      <section class="departments-style-two alternat-2">
-        <div class="auto-container">
-          <div class="row clearfix">
-            <div class="col-lg-9 col-md-12 col-sm-12 content-side">
-              <div class="department-details-content">
-                <div class="content-one dept_leyer_1">
-                  <div class="title-box">
+      <section className="departments-style-two alternat-2">
+        <div className="auto-container">
+          <div className="row clearfix">
+            <div className="col-lg-9 col-md-12 col-sm-12 content-side">
+              <div className="department-details-content">
+                <div className="content-one dept_leyer_1">
+                  <div className="title-box">
                     <h3>Birth & Death Department</h3>
                     <hr />
                   </div>
@@ -58,11 +58,11 @@ const BirthDeathDepartment = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-12 col-sm-12 sidebar-side">
-              <div class="department-sidebar">
-                <div class="category-widget">
-                  <div class="widget-content">
-                  <ul class="category-list clearfix">
+            <div className="col-lg-3 col-md-12 col-sm-12 sidebar-side">
+              <div className="department-sidebar">
+                <div className="category-widget">
+                  <div className="widget-content">
+                  <ul className="category-list clearfix">
                       <li>
                         {" "}
                         <a href="/general-admin-department">
